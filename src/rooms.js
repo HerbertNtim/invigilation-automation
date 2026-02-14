@@ -1,10 +1,7 @@
-import ExcelJS from "exceljs";
-import path from "path";
-import { fileURLToPath } from "url";
+import XLSX from 'xlsx';
 
-const _filename = fileURLToPath(import.meta.url);
-const _dirname = path.dirname(_filename);
-const timetable = path.join(_dirname,   'timetables/Midsem_Timetable_2024-25_Midsem-2-final.xlsx')
+const timetable = './timetables/Examtt2k24_25_SS_EXAMS.xlsx';
 
-const workbook = new ExcelJS.Workbook();
-console.log(await workbook.xlsx.readFile(timetable));
+const workbook = XLSX.readFile(timetable);
+
+console.log(workbook.SheetNames);
