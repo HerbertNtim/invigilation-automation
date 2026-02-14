@@ -1,0 +1,7 @@
+{
+  "name": "invigilation-auto",
+  "packageManager": "yarn@4.12.0",
+  "scripts": {
+    "rooms": "node src/rooms.js"
+  }
+}
