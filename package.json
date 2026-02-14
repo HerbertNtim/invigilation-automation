@@ -3,7 +3,8 @@
   "packageManager": "yarn@4.12.0",
   "type": "module",
   "scripts": {
-    "rooms": "node src/rooms.js"
+    "rooms": "node src/rooms.js",
+    "clean-timetable": "node src/clean-timetable.js"
   },
   "dependencies": {
     "exceljs": "^4.4.0",
