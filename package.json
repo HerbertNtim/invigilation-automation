@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "rooms": "node src/rooms.js",
-    "clean-timetable": "node src/clean-timetable.js"
+    "clean-timetable": "node src/clean-timetable.js",
+    "test": "node src/test.js"
   },
   "dependencies": {
     "exceljs": "^4.4.0",
