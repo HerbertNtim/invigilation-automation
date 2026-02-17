@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 // Build full path to the Excel file
 const timetable = path.join(
   __dirname,
-  "./outputs/Examtt2k24_25_SS_EXAMS-cleaned.xlsx",
+  "./outputs/Mid-Sem TT-cleaned.xlsx",
 );
 
 // const workbook = XLSX.readFile(timetable);
@@ -36,6 +36,7 @@ function workOnExcel(filename) {
     };
   }).filter((item) => item && item.Rooms && item.Dates && item.Sessions);
 
+  console.log(extractedRooms)
   return groupRoomsForAllocation(extractedRooms);
 }
 

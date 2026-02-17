@@ -136,12 +136,12 @@ async function start(allPapers, destPath) {
 
 const filename = path.join(
   __dirname,
-  "./timetables/Examtt2k24_25_SS_EXAMS.xlsx"
+  "./timetables/Mid-Sem TT.xlsx"
 );
 
 const output = path.join(
   __dirname,
-  "./outputs/Examtt2k24_25_SS_EXAMS-cleaned.xlsx"
+  "./outputs/Mid-Sem TT-cleaned.xlsx"
 );
 
 
