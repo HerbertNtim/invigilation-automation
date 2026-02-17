@@ -1,71 +1,110 @@
 import XLSX from "xlsx";
 import path from "path";
-import fs from 'node:fs'
+import fs from "node:fs";
 import { fileURLToPath } from "url";
 
-// Resolve __dirname
+// Recreate __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Build full path to the Excel file
+// Build absolute path to Excel file
 const timetable = path.join(
   __dirname,
-  "./outputs/Mid-Sem TT-cleaned.xlsx",
+  "./outputs/Mid-Sem TT-cleaned.xlsx"
 );
 
-// const workbook = XLSX.readFile(timetable);
-// console.log(workbook.SheetNames);
-
 function workOnExcel(filename) {
+  console.log("\n📘 Starting Excel processing...");
+  console.log("📂 Reading file:", filename);
+
   const workbook = XLSX.readFile(filename);
-  const workSheet = workbook.Sheets["Sheet1"];
+
+  const sheetName = workbook.SheetNames[0];
+  console.log("📄 Using sheet:", sheetName);
+
+  const workSheet = workbook.Sheets[sheetName];
+
   const jsonData = XLSX.utils.sheet_to_json(workSheet, { header: 1 });
-  // console.log(jsonData)
 
-  let extractedRooms = jsonData.map((row) => {
-    if (!row[0] || typeof row !== "string") return null;
+  console.log("📊 Total rows found:", jsonData.length);
 
-    const splitRow = row[0].split("%");
+  let processed = 0;
+  let skipped = 0;
 
-    if (splitRow.length < 8) return null;
+  const extractedRooms = jsonData
+    .map((row, index) => {
+      processed++;
 
-    return {
-      Rooms: splitRow[5],
-      Dates: splitRow[6],
-      Sessions: splitRow[7],
-    };
-  }).filter((item) => item && item.Rooms && item.Dates && item.Sessions);
+      const cell = row[0];
 
-  console.log(extractedRooms)
+      if (typeof cell !== "string") {
+        skipped++;
+        console.log(`⚠️ Skipping row ${index + 1}: not a valid string`);
+        return null;
+      }
+
+      const splitRow = cell.split("%");
+
+      if (splitRow.length < 9) {
+        skipped++;
+        console.log(
+          `⚠️ Skipping row ${index + 1}: invalid format (${splitRow.length} parts)`
+        );
+        return null;
+      }
+
+      return {
+        Rooms: splitRow[5].trim(),
+        Dates: splitRow[6].trim(),
+        Sessions: splitRow[7].trim(),
+      };
+    })
+    .filter(Boolean);
+
+  console.log("\n✅ Extraction complete");
+  console.log("✔ Processed rows:", processed);
+  console.log("✔ Valid rows:", extractedRooms.length);
+  console.log("❌ Skipped rows:", skipped);
+
   return groupRoomsForAllocation(extractedRooms);
 }
 
 function groupRoomsForAllocation(data) {
+  console.log("\n🏫 Grouping rooms by date and session...");
+
   const result = {};
+  let roomCount = 0;
 
   data.forEach(({ Dates, Sessions, Rooms }) => {
-    if (!result[Dates]) {
-      result[Dates] = {};
-    }
-
-    if (!result[Dates][Sessions]) {
-      result[Dates][Sessions] = {};
-    }
+    if (!result[Dates]) result[Dates] = {};
+    if (!result[Dates][Sessions]) result[Dates][Sessions] = {};
 
     Rooms.split("/").forEach((room) => {
+      const cleanRoom = room.trim();
+
       if (
-        Object.keys(result[Dates][Sessions]).includes(room) ||
-        room.trim() === "Computer Based"
-      ) {
-        return;
-      }
-      result[Dates][Sessions][room] = [];
+        result[Dates][Sessions][cleanRoom] ||
+        cleanRoom === "Computer Based"
+      ) return;
+
+      result[Dates][Sessions][cleanRoom] = [];
+      roomCount++;
     });
   });
+
+  console.log("✅ Room grouping complete");
+  console.log("🏢 Total unique rooms allocated:", roomCount);
 
   return result;
 }
 
+// Output file path
 const output = "./src/outputs/rooms.json";
 
-fs.writeFileSync(output, JSON.stringify(workOnExcel(timetable), null, 2));
+console.log("\n💾 Writing output to:", output);
+
+const result = workOnExcel(timetable);
+
+fs.writeFileSync(output, JSON.stringify(result, null, 2));
+
+console.log("\n🎉 Done! JSON file created successfully.\n");
