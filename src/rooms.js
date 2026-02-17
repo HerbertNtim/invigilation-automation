@@ -3,16 +3,73 @@ import path from "path";
 import fs from "node:fs";
 import { fileURLToPath } from "url";
 
-// Recreate __dirname for ES modules
+/*
+  Recreate __dirname in Node ES modules
+*/
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Build absolute path to Excel file
-const timetable = path.join(
-  __dirname,
-  "./outputs/Mid-Sem TT-cleaned.xlsx"
+/*
+  Excel file path
+*/
+const timetable = path.join(__dirname, "./outputs/Mid-Sem TT-cleaned.xlsx");
+
+/*
+  Custom room priority order
+*/
+const roomOrder = [
+  "LT",
+  "RMA",
+  "RMB",
+  "VSLA",
+  "206",
+  "303",
+  "304",
+  "N1",
+  "N2",
+  "PB001",
+  "PB008",
+  "PB014",
+  "PB020",
+  "PB201",
+  "PB208",
+  "PB212",
+  "PB214",
+  "VCR",
+  "ECR",
+  "A110",
+  "EA",
+  "NAF1",
+  "NEB-GF",
+  "NEB-FF1",
+  "NEB-FF2",
+  "NEB-SF",
+  "NEB-TF",
+];
+
+/*
+  Build fast lookup table for sorting rooms
+*/
+const roomIndex = Object.fromEntries(
+  roomOrder.map((room, index) => [room, index]),
 );
 
+/*
+  Sort rooms according to custom order
+*/
+function sortRooms(obj) {
+  return Object.fromEntries(
+    Object.entries(obj).sort(([a], [b]) => {
+      const indexA = roomIndex[a] ?? Infinity;
+      const indexB = roomIndex[b] ?? Infinity;
+      return indexA - indexB;
+    }),
+  );
+}
+
+/*
+  Read Excel and extract relevant fields
+*/
 function workOnExcel(filename) {
   console.log("\n📘 Starting Excel processing...");
   console.log("📂 Reading file:", filename);
@@ -23,7 +80,6 @@ function workOnExcel(filename) {
   console.log("📄 Using sheet:", sheetName);
 
   const workSheet = workbook.Sheets[sheetName];
-
   const jsonData = XLSX.utils.sheet_to_json(workSheet, { header: 1 });
 
   console.log("📊 Total rows found:", jsonData.length);
@@ -48,7 +104,7 @@ function workOnExcel(filename) {
       if (splitRow.length < 9) {
         skipped++;
         console.log(
-          `⚠️ Skipping row ${index + 1}: invalid format (${splitRow.length} parts)`
+          `⚠️ Skipping row ${index + 1}: invalid format (${splitRow.length} parts)`,
         );
         return null;
       }
@@ -69,6 +125,9 @@ function workOnExcel(filename) {
   return groupRoomsForAllocation(extractedRooms);
 }
 
+/*
+  Group rooms by date and session
+*/
 function groupRoomsForAllocation(data) {
   console.log("\n🏫 Grouping rooms by date and session...");
 
@@ -82,15 +141,22 @@ function groupRoomsForAllocation(data) {
     Rooms.split("/").forEach((room) => {
       const cleanRoom = room.trim();
 
-      if (
-        result[Dates][Sessions][cleanRoom] ||
-        cleanRoom === "Computer Based"
-      ) return;
+      if (result[Dates][Sessions][cleanRoom] || cleanRoom === "Computer Based")
+        return;
 
       result[Dates][Sessions][cleanRoom] = [];
       roomCount++;
     });
   });
+
+  /*
+    Sort rooms inside each session
+  */
+  for (const date in result) {
+    for (const session in result[date]) {
+      result[date][session] = sortRooms(result[date][session]);
+    }
+  }
 
   console.log("✅ Room grouping complete");
   console.log("🏢 Total unique rooms allocated:", roomCount);
@@ -98,7 +164,9 @@ function groupRoomsForAllocation(data) {
   return result;
 }
 
-// Output file path
+/*
+  Write output JSON
+*/
 const output = "./src/outputs/rooms.json";
 
 console.log("\n💾 Writing output to:", output);
