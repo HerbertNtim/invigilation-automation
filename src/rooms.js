@@ -1,5 +1,6 @@
 import XLSX from "xlsx";
 import path from "path";
+import fs from 'node:fs'
 import { fileURLToPath } from "url";
 
 // Resolve __dirname
@@ -9,7 +10,7 @@ const __dirname = path.dirname(__filename);
 // Build full path to the Excel file
 const timetable = path.join(
   __dirname,
-  "./timetables/Examtt2k24_25_SS_EXAMS.xlsx",
+  "./outputs/Examtt2k24_25_SS_EXAMS-cleaned.xlsx",
 );
 
 // const workbook = XLSX.readFile(timetable);
@@ -35,7 +36,35 @@ function workOnExcel(filename) {
     };
   }).filter((item) => item && item.Rooms && item.Dates && item.Sessions);
 
-  console.log(extractedRooms)
+  return groupRoomsForAllocation(extractedRooms);
 }
 
-workOnExcel(timetable);
+function groupRoomsForAllocation(data) {
+  const result = {};
+
+  data.forEach(({ Dates, Sessions, Rooms }) => {
+    if (!result[Dates]) {
+      result[Dates] = {};
+    }
+
+    if (!result[Dates][Sessions]) {
+      result[Dates][Sessions] = {};
+    }
+
+    Rooms.split("/").forEach((room) => {
+      if (
+        Object.keys(result[Dates][Sessions]).includes(room) ||
+        room.trim() === "Computer Based"
+      ) {
+        return;
+      }
+      result[Dates][Sessions][room] = [];
+    });
+  });
+
+  return result;
+}
+
+const output = "./src/outputs/rooms.json";
+
+fs.writeFileSync(output, JSON.stringify(workOnExcel(timetable), null, 2));
