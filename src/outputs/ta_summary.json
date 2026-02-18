@@ -1,34 +1,38 @@
 [
   {
-    "ta": "Abubakar Muniru",
+    "ta": "Wafawu Mashud",
     "totalSessions": 11
   },
   {
-    "ta": "Christie Nyarko",
+    "ta": "Erica Abankwah",
     "totalSessions": 11
   },
   {
-    "ta": "David Nkansah Mensah",
+    "ta": "Dickson Avonor",
     "totalSessions": 11
   },
   {
-    "ta": "Debora Sarpomaa Boateng",
+    "ta": "Doreen Asamoah",
     "totalSessions": 11
   },
   {
-    "ta": "Evans Tignanlene Nkumicha",
+    "ta": "Sandra Osei",
     "totalSessions": 11
   },
   {
-    "ta": "Isaac Ayensu",
+    "ta": "Deborah Osei Kyei",
     "totalSessions": 11
   },
   {
-    "ta": "Lucian Nsiah Sarkodie",
+    "ta": "Deborah Yaa Brew",
     "totalSessions": 11
   },
   {
-    "ta": "Ebenezer Paa Effisah",
+    "ta": "Eileen Esi Doe",
+    "totalSessions": 11
+  },
+  {
+    "ta": "Achala Elijah",
     "totalSessions": 11
   },
   {
@@ -65,7 +69,7 @@
   },
   {
     "ta": "Ankrah Lynn Akorfa",
-    "totalSessions": 11
+    "totalSessions": 10
   },
   {
     "ta": "Akuetteh Regimanuel Korley",
@@ -192,23 +196,11 @@
     "totalSessions": 10
   },
   {
-    "ta": "Sandra Osei",
-    "totalSessions": 10
-  },
-  {
-    "ta": "Deborah Osei Kyei",
-    "totalSessions": 10
-  },
-  {
     "ta": "Koomson, Florence Easton",
     "totalSessions": 10
   },
   {
     "ta": "Adu, Maxwell Kofi Jr",
-    "totalSessions": 10
-  },
-  {
-    "ta": "Deborah Yaa Brew",
     "totalSessions": 10
   },
   {
@@ -244,14 +236,6 @@
     "totalSessions": 10
   },
   {
-    "ta": "Dickson Avonor",
-    "totalSessions": 10
-  },
-  {
-    "ta": "Doreen Asamoah",
-    "totalSessions": 10
-  },
-  {
     "ta": "Papa Tawiah",
     "totalSessions": 10
   },
@@ -272,14 +256,6 @@
     "totalSessions": 10
   },
   {
-    "ta": "Eileen Esi Doe",
-    "totalSessions": 10
-  },
-  {
-    "ta": "Achala Elijah",
-    "totalSessions": 10
-  },
-  {
     "ta": "Catherine Arkor Tettey",
     "totalSessions": 10
   },
@@ -289,10 +265,6 @@
   },
   {
     "ta": "Emmanuel Akuetteh Ayite-Atiapa",
-    "totalSessions": 10
-  },
-  {
-    "ta": "Erica Abankwah",
     "totalSessions": 10
   },
   {
@@ -340,7 +312,35 @@
     "totalSessions": 10
   },
   {
-    "ta": "Wafawu Mashud",
+    "ta": "Abubakar Muniru",
+    "totalSessions": 10
+  },
+  {
+    "ta": "Christie Nyarko",
+    "totalSessions": 10
+  },
+  {
+    "ta": "David Nkansah Mensah",
+    "totalSessions": 10
+  },
+  {
+    "ta": "Debora Sarpomaa Boateng",
+    "totalSessions": 10
+  },
+  {
+    "ta": "Evans Tignanlene Nkumicha",
+    "totalSessions": 10
+  },
+  {
+    "ta": "Isaac Ayensu",
+    "totalSessions": 10
+  },
+  {
+    "ta": "Lucian Nsiah Sarkodie",
+    "totalSessions": 10
+  },
+  {
+    "ta": "Ebenezer Paa Effisah",
     "totalSessions": 10
   }
 ]

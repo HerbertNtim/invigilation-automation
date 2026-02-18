@@ -8,7 +8,7 @@
     "clean-timetable": "node src/clean-timetable.js",
     "excel": "node src/saveToExcel.js",
     "test": "node src/test.js",
-    "schedule": "node src/n-queen.js"
+    "schedule": "node src/tas-schedule.js"
   },
   "dependencies": {
     "exceljs": "^4.4.0",
