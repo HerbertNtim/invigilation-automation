@@ -6,6 +6,7 @@
     "rooms": "node src/rooms.js",
     "check-rooms": "node src/check-rooms.js",
     "clean-timetable": "node src/clean-timetable.js",
+    "excel": "node src/saveToExcel.js",
     "test": "node src/test.js",
     "schedule": "node src/n-queen.js"
   },
