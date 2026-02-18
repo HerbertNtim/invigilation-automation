@@ -15,59 +15,6 @@ const __dirname = path.dirname(__filename);
 const timetable = path.join(__dirname, "./outputs/Mid-Sem TT-cleaned.xlsx");
 
 /*
-  Custom room priority order
-*/
-const roomOrder = [
-  "LT",
-  "RMA",
-  "RMB",
-  "VSLA",
-  "206",
-  "303",
-  "304",
-  "N1",
-  "N2",
-  "PB001",
-  "PB008",
-  "PB014",
-  "PB020",
-  "PB201",
-  "PB208",
-  "PB212",
-  "PB214",
-  "VCR",
-  "ECR",
-  "A110",
-  "EA",
-  "NAF1",
-  "NEB-GF",
-  "NEB-FF1",
-  "NEB-FF2",
-  "NEB-SF",
-  "NEB-TF",
-];
-
-/*
-  Build fast lookup table for sorting rooms
-*/
-const roomIndex = Object.fromEntries(
-  roomOrder.map((room, index) => [room, index]),
-);
-
-/*
-  Sort rooms according to custom order
-*/
-function sortRooms(obj) {
-  return Object.fromEntries(
-    Object.entries(obj).sort(([a], [b]) => {
-      const indexA = roomIndex[a] ?? Infinity;
-      const indexB = roomIndex[b] ?? Infinity;
-      return indexA - indexB;
-    }),
-  );
-}
-
-/*
   Read Excel and extract relevant fields
 */
 function workOnExcel(filename) {
@@ -149,16 +96,6 @@ function groupRoomsForAllocation(data) {
     });
   });
 
-  /*
-    Sort rooms inside each session
-  */
-  for (const date in result) {
-    for (const session in result[date]) {
-      result[date][session] = sortRooms(result[date][session]);
-    }
-  }
-
-  console.log("✅ Room grouping complete");
   console.log("🏢 Total unique rooms allocated:", roomCount);
 
   return result;
