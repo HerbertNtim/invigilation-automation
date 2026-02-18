@@ -63,4 +63,4 @@ function nQueens(n) {
   }
 }
 
-nQueens(10);
+nQueens(4);
