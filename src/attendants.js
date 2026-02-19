@@ -96,7 +96,15 @@ class ScheduleAttendants {
         "Robert Kofi Kyere",
       ],
     };
+
+    this.assignmentCounts = {}
+    for(let i = 0; i < attds.length; i++) {
+      this.assignmentCounts[i] = 0
+    }
+
+    
   }
+
 
   getTotalSessions(schedule) {
     let total = 0;
