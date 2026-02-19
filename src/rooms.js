@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 /*
   Excel file path
 */
-const timetable = path.join(__dirname, "./outputs/Mid-Sem TT-cleaned.xlsx");
+const timetable = path.join(__dirname, "./outputs/MIDSEM TIMETABLE 25_26-cleaned.xlsx");
 
 /*
   Read Excel and extract relevant fields
