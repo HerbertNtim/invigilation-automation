@@ -1,6 +1,6 @@
 {
   "Monday, 23 February 2026": {
-    "Session, 1 (8:15AM - 9:15 AM)": {
+    "Session, 1 (8:15 AM - 9:15 AM)": {
       "206": [
         "Wafawu Mashud"
       ],
@@ -81,7 +81,7 @@
         "Davida Oforiwaa Adu Gyamfi"
       ]
     },
-    "Session, 2  (10:00AM - 11:00 AM)": {
+    "Session, 2  (10:00 AM - 11:00 AM)": {
       "206": [
         "Samuel Agbenu"
       ],
@@ -145,11 +145,11 @@
         "Samuel Cudjoe"
       ],
       "NAF1": [
-        "Koomson, Florence Easton",
+        "Koomson Florence Easton",
         "Adu, Maxwell Kofi Jr"
       ],
       "A110": [
-        "Oduro, Kwame Ohene"
+        "Oduro Kwame Ohene"
       ],
       "VCR": [
         "Benard Kojo Aidoo"
@@ -168,7 +168,7 @@
         "Edmond Khan"
       ]
     },
-    "Session, 3 (11:45AM - 12:45 PM)": {
+    "Session, 3 (11:45 AM - 12:45 PM)": {
       "206": [
         "Darkwah Kingsley Awuah"
       ],
@@ -176,298 +176,304 @@
         "Papa Tawiah"
       ],
       "304": [
-        "Erica Gado"
+        "Sebi Kofi Benjamin"
       ],
       "VSLA": [
-        "Richmond Donkor",
-        "Lawrence Cudjoe"
-      ],
-      "LT": [
-        "Bernard Eshun"
-      ],
-      "RMA": [
-        "Catherine Arkor Tettey"
-      ],
-      "PB201": [
-        "Manuel Akuamaoh Boateng"
-      ],
-      "PB214": [
-        "Emmanuel Akuetteh Ayite-Atiapa"
-      ],
-      "PB208": [
-        "Christopher Tetteh Morton"
-      ],
-      "NAF1": [
-        "Yussif Braimah Iddi",
-        "Derrick Yeboah Duah"
-      ],
-      "A110": [
-        "Francis Okyere Darko Mensah"
-      ],
-      "EA": [
-        "Terrance Tenkorang"
-      ],
-      "VCR": [
-        "Augustine Gyening"
-      ],
-      "PB001": [
-        "Divine Adjabeng"
-      ],
-      "N1": [
-        "Julius Abbey"
-      ],
-      "N2": [
-        "Derrick Cudjoe"
-      ],
-      "NEB-SF": [
-        "Nii Otoo Lartey",
-        "Barnabas Banahene-Owusu"
-      ],
-      "NEB-FF1": [
-        "Abubakar Muniru"
-      ],
-      "NEB-FF2": [
-        "Christie Nyarko"
-      ],
-      "PB020": [
-        "David Nkansah Mensah"
-      ],
-      "PB014": [
-        "Debora Sarpomaa Boateng"
-      ],
-      "PB008": [
-        "Evans Tignanlene Nkumicha"
-      ],
-      "NEB-TF": [
-        "Isaac Ayensu",
-        "Lucian Nsiah Sarkodie"
-      ]
-    },
-    "Session, 4 (1:30PM - 2:30 PM)": {
-      "304": [
-        "Ebenezer Paa Effisah"
-      ],
-      "PB008": [
-        "Wafawu Mashud"
-      ],
-      "PB208": [
-        "Erica Abankwah"
-      ],
-      "VSLA": [
-        "Dickson Avonor",
-        "Doreen Asamoah"
-      ],
-      "LT": [
-        "Sandra Osei"
-      ],
-      "NEB-SF": [
-        "Deborah Osei Kyei",
-        "Deborah Yaa Brew"
-      ],
-      "NEB-TF": [
-        "Eileen Esi Doe",
-        "Rukaiya Saeed"
-      ],
-      "NEB-FF1": [
-        "Achala Elijah"
-      ],
-      "NEB-FF2": [
-        "Nimatu Husein"
-      ],
-      "RMB": [
-        "James Eric Ossom"
-      ],
-      "N1": [
-        "Benjamin Kwadwo Marfo"
-      ],
-      "N2": [
-        "Desmond Tenakwah"
-      ],
-      "PB001": [
-        "Edward Ekow Forson"
-      ],
-      "PB020": [
-        "Emmanuel Nkrumah"
-      ],
-      "PB014": [
-        "Adasi Vida Birago"
-      ],
-      "PB201": [
-        "Felicity Naa Oboshie Torgbor"
-      ],
-      "PB214": [
-        "Osei Kingsley Bonsu"
-      ],
-      "PB212": [
-        "Ankrah Lynn Akorfa"
-      ],
-      "NAF1": [
-        "Akuetteh Regimanuel Korley",
-        "Anafi Samuel"
-      ],
-      "A110": [
-        "Juliet Osei Bonsu"
-      ],
-      "EA": [
-        "Nathaniel Agbugblah"
-      ],
-      "RMA": [
-        "Bernard Essel"
-      ]
-    },
-    "Session, 5 (3:15PM - 4:15 PM)": {
-      "206": [
-        "Elliot Amponsah"
-      ],
-      "303": [
-        "Biney Owusu"
-      ],
-      "304": [
-        "Kingsley Owusu Agyekum"
-      ],
-      "PB001": [
-        "Davida Oforiwaa Adu Gyamfi"
-      ],
-      "PB020": [
-        "Samuel Agbenu"
-      ],
-      "PB014": [
-        "Nana Andoh Michael"
-      ],
-      "PB201": [
-        "Kwasi Kyei Sarpong"
-      ],
-      "PB214": [
-        "Poku Antwi Kwadwo"
-      ],
-      "PB208": [
-        "Ashanti Atta Al-Hafid"
-      ],
-      "PB212": [
-        "Kumah David Jnr"
-      ],
-      "VSLA": [
-        "Lilian Amankwa",
-        "Mansur Abubakar"
-      ],
-      "LT": [
-        "Prince Asare Ange Seraphin"
-      ],
-      "RMA": [
-        "Archer Michaelina Adu"
-      ],
-      "RMB": [
-        "Prince Nyame"
-      ],
-      "N1": [
-        "Effa Emmanuel"
-      ],
-      "N2": [
-        "Alex Ohemeng Adusei"
-      ],
-      "EA": [
-        "Oliver Kobby Biney"
-      ],
-      "A110": [
-        "George Wiafe"
-      ],
-      "NAF1": [
-        "Christian Kofi Essandoh",
-        "Billaly Abdul Hayu"
-      ],
-      "VCR": [
-        "Kadzi Daniel"
-      ],
-      "NEB-SF": [
-        "Abdulai Fatimah",
-        "Ohene Kwame Oduro"
-      ],
-      "NEB-FF1": [
-        "Emmanuel Boadi"
-      ],
-      "NEB-FF2": [
-        "Samuel Cudjoe"
-      ],
-      "NEB-TF": [
-        "Koomson, Florence Easton",
-        "Adu, Maxwell Kofi Jr"
-      ],
-      "ECR": [
-        "Oduro, Kwame Ohene"
-      ],
-      "PB008": [
-        "Benard Kojo Aidoo"
-      ]
-    },
-    "Session, 6 (5:00PM - 6:00 PM)": {
-      "206": [
-        "Nesco Nanzie Benjamin"
-      ],
-      "303": [
-        "Lucas Biiyiin"
-      ],
-      "304": [
-        "Alexander Frimpong"
-      ],
-      "PB001": [
-        "Gideon Kuffour Agyekum"
-      ],
-      "PB020": [
-        "Edmond Khan"
-      ],
-      "PB014": [
-        "Darkwah Kingsley Awuah"
-      ],
-      "PB201": [
-        "Papa Tawiah"
-      ],
-      "PB214": [
-        "Erica Gado"
-      ],
-      "PB212": [
+        "Erica Gado",
         "Richmond Donkor"
       ],
-      "A110": [
+      "LT": [
         "Lawrence Cudjoe"
       ],
-      "EA": [
+      "RMA": [
         "Bernard Eshun"
       ],
-      "NEB-SF": [
-        "Catherine Arkor Tettey",
+      "PB201": [
+        "Catherine Arkor Tettey"
+      ],
+      "PB214": [
         "Manuel Akuamaoh Boateng"
       ],
-      "NEB-FF1": [
+      "PB208": [
         "Emmanuel Akuetteh Ayite-Atiapa"
       ],
-      "NEB-FF2": [
-        "Christopher Tetteh Morton"
+      "NAF1": [
+        "Christopher Tetteh Morton",
+        "Yussif Braimah Iddi"
       ],
-      "VSLA": [
-        "Yussif Braimah Iddi",
+      "A110": [
         "Derrick Yeboah Duah"
       ],
-      "LT": [
+      "EA": [
         "Francis Okyere Darko Mensah"
       ],
-      "RMB": [
+      "VCR": [
         "Terrance Tenkorang"
       ],
-      "PB008": [
+      "PB001": [
         "Augustine Gyening"
       ],
-      "PB208": [
+      "N1": [
         "Divine Adjabeng"
       ],
-      "RMA": [
+      "N2": [
         "Julius Abbey"
       ],
-      "NEB-TF": [
+      "NEB-SF": [
         "Derrick Cudjoe",
         "Nii Otoo Lartey"
       ],
+      "NEB-FF1": [
+        "Barnabas Banahene-Owusu"
+      ],
+      "NEB-FF2": [
+        "Abubakar Muniru"
+      ],
+      "PB020": [
+        "Christie Nyarko"
+      ],
+      "PB014": [
+        "David Nkansah Mensah"
+      ],
+      "PB008": [
+        "Debora Sarpomaa Boateng"
+      ],
+      "NEB-TF": [
+        "Evans Tignanlene Nkumicha",
+        "Isaac Ayensu"
+      ]
+    },
+    "Session, 4 (1:30 PM - 2:30 PM)": {
+      "304": [
+        "Lucian Nsiah Sarkodie"
+      ],
+      "PB008": [
+        "Ebenezer Paa Effisah"
+      ],
+      "PB208": [
+        "Wafawu Mashud"
+      ],
+      "VSLA": [
+        "Erica Abankwah",
+        "Dickson Avonor"
+      ],
+      "LT": [
+        "Doreen Asamoah"
+      ],
+      "NEB-SF": [
+        "Sandra Osei",
+        "Deborah Osei Kyei"
+      ],
+      "NEB-TF": [
+        "Deborah Yaa Brew",
+        "Eileen Esi Doe"
+      ],
+      "NEB-FF1": [
+        "Rukaiya Saeed"
+      ],
+      "NEB-FF2": [
+        "Achala Elijah"
+      ],
+      "RMB": [
+        "Nimatu Husein"
+      ],
+      "N1": [
+        "James Eric Ossom"
+      ],
+      "N2": [
+        "Benjamin Kwadwo Marfo"
+      ],
+      "PB001": [
+        "Desmond Tenakwah"
+      ],
+      "PB020": [
+        "Edward Ekow Forson"
+      ],
+      "PB014": [
+        "Emmanuel Nkrumah"
+      ],
+      "PB201": [
+        "Adasi Vida Birago"
+      ],
+      "PB214": [
+        "Felicity Naa Oboshie Torgbor"
+      ],
+      "PB212": [
+        "Osei Kingsley Bonsu"
+      ],
       "NAF1": [
-        "Barnabas Banahene-Owusu",
+        "Ankrah Lynn Akorfa",
+        "Akuetteh Regimanuel Korley"
+      ],
+      "A110": [
+        "Anafi Samuel"
+      ],
+      "EA": [
+        "Juliet Osei Bonsu"
+      ],
+      "RMA": [
+        "Nathaniel Agbugblah"
+      ]
+    },
+    "Session, 5 (3:15 PM - 4:15 PM)": {
+      "206": [
+        "Bernard Essel"
+      ],
+      "303": [
+        "Elliot Amponsah"
+      ],
+      "304": [
+        "Biney Owusu"
+      ],
+      "PB001": [
+        "Kingsley Owusu Agyekum"
+      ],
+      "PB020": [
+        "Davida Oforiwaa Adu Gyamfi"
+      ],
+      "PB014": [
+        "Samuel Agbenu"
+      ],
+      "PB201": [
+        "Nana Andoh Michael"
+      ],
+      "PB214": [
+        "Kwasi Kyei Sarpong"
+      ],
+      "PB208": [
+        "Poku Antwi Kwadwo"
+      ],
+      "PB212": [
+        "Ashanti Atta Al-Hafid"
+      ],
+      "VSLA": [
+        "Kumah David Jnr",
+        "Lilian Amankwa"
+      ],
+      "LT": [
+        "Mansur Abubakar"
+      ],
+      "RMA": [
+        "Prince Asare Ange Seraphin"
+      ],
+      "RMB": [
+        "Archer Michaelina Adu"
+      ],
+      "N1": [
+        "Prince Nyame"
+      ],
+      "N2": [
+        "Effa Emmanuel"
+      ],
+      "EA": [
+        "Alex Ohemeng Adusei"
+      ],
+      "A110": [
+        "Oliver Kobby Biney"
+      ],
+      "NAF1": [
+        "George Wiafe",
+        "Christian Kofi Essandoh"
+      ],
+      "VCR": [
+        "Billaly Abdul Hayu"
+      ],
+      "NEB-SF": [
+        "Kadzi Daniel",
+        "Abdulai Fatimah"
+      ],
+      "NEB-FF1": [
+        "Ohene Kwame Oduro"
+      ],
+      "NEB-FF2": [
+        "Emmanuel Boadi"
+      ],
+      "NEB-TF": [
+        "Samuel Cudjoe",
+        "Koomson Florence Easton"
+      ],
+      "ECR": [
+        "Adu, Maxwell Kofi Jr"
+      ],
+      "PB008": [
+        "Oduro Kwame Ohene"
+      ]
+    },
+    "Session, 6 (5:00 PM - 6:00 PM)": {
+      "206": [
+        "Benard Kojo Aidoo"
+      ],
+      "303": [
+        "Nesco Nanzie Benjamin"
+      ],
+      "304": [
+        "Lucas Biiyiin"
+      ],
+      "PB001": [
+        "Alexander Frimpong"
+      ],
+      "PB020": [
+        "Gideon Kuffour Agyekum"
+      ],
+      "PB014": [
+        "Edmond Khan"
+      ],
+      "PB201": [
+        "Darkwah Kingsley Awuah"
+      ],
+      "PB214": [
+        "Papa Tawiah"
+      ],
+      "PB212": [
+        "Sebi Kofi Benjamin"
+      ],
+      "NEB-TF": [
+        "Erica Gado",
+        "Richmond Donkor"
+      ],
+      "NEB-SF": [
+        "Lawrence Cudjoe",
+        "Bernard Eshun"
+      ],
+      "NEB-FF1": [
+        "Catherine Arkor Tettey"
+      ],
+      "NEB-FF2": [
+        "Manuel Akuamaoh Boateng"
+      ],
+      "VSLA": [
+        "Emmanuel Akuetteh Ayite-Atiapa",
+        "Christopher Tetteh Morton"
+      ],
+      "LT": [
+        "Yussif Braimah Iddi"
+      ],
+      "RMB": [
+        "Derrick Yeboah Duah"
+      ],
+      "PB008": [
+        "Francis Okyere Darko Mensah"
+      ],
+      "PB208": [
+        "Terrance Tenkorang"
+      ],
+      "RMA": [
+        "Augustine Gyening"
+      ],
+      "NAF1": [
+        "Divine Adjabeng",
+        "Julius Abbey"
+      ],
+      "A110": [
+        "Derrick Cudjoe"
+      ],
+      "EA": [
+        "Nii Otoo Lartey"
+      ],
+      "ECR": [
+        "Barnabas Banahene-Owusu"
+      ],
+      "VCR": [
         "Abubakar Muniru"
       ]
     }
@@ -635,15 +641,15 @@
         "Samuel Cudjoe"
       ],
       "N2": [
-        "Koomson, Florence Easton"
+        "Koomson Florence Easton"
       ]
     },
-    "Session, 3 ( 11:45 AM - 12:45 PM)": {
+    "Session, 3 (11:45 AM - 12:45 PM)": {
       "206": [
         "Adu, Maxwell Kofi Jr"
       ],
       "303": [
-        "Oduro, Kwame Ohene"
+        "Oduro Kwame Ohene"
       ],
       "304": [
         "Benard Kojo Aidoo"
@@ -668,61 +674,315 @@
         "Papa Tawiah"
       ],
       "RMA": [
-        "Erica Gado"
+        "Sebi Kofi Benjamin"
       ],
       "RMB": [
-        "Richmond Donkor"
+        "Erica Gado"
       ],
       "N1": [
-        "Lawrence Cudjoe"
+        "Richmond Donkor"
       ],
       "N2": [
-        "Bernard Eshun"
+        "Lawrence Cudjoe"
       ],
       "PB001": [
-        "Catherine Arkor Tettey"
+        "Bernard Eshun"
       ],
       "PB014": [
-        "Manuel Akuamaoh Boateng"
+        "Catherine Arkor Tettey"
       ],
       "PB208": [
-        "Emmanuel Akuetteh Ayite-Atiapa"
+        "Manuel Akuamaoh Boateng"
       ],
       "PB008": [
-        "Christopher Tetteh Morton"
+        "Emmanuel Akuetteh Ayite-Atiapa"
       ],
       "NEB-TF": [
-        "Yussif Braimah Iddi",
-        "Derrick Yeboah Duah"
+        "Christopher Tetteh Morton",
+        "Yussif Braimah Iddi"
       ],
       "NEB-SF": [
-        "Francis Okyere Darko Mensah",
-        "Terrance Tenkorang"
+        "Derrick Yeboah Duah",
+        "Francis Okyere Darko Mensah"
       ],
       "NEB-FF1": [
-        "Augustine Gyening"
+        "Terrance Tenkorang"
       ],
       "NEB-FF2": [
-        "Divine Adjabeng"
+        "Augustine Gyening"
       ],
       "NAF1": [
-        "Julius Abbey",
-        "Derrick Cudjoe"
+        "Divine Adjabeng",
+        "Julius Abbey"
       ],
       "EA": [
-        "Nii Otoo Lartey"
+        "Derrick Cudjoe"
       ],
       "ECR": [
-        "Barnabas Banahene-Owusu"
+        "Nii Otoo Lartey"
       ],
       "A110": [
+        "Barnabas Banahene-Owusu"
+      ],
+      "VCR": [
+        "Abubakar Muniru"
+      ]
+    },
+    "Session, 4 (1:30 PM - 2:30 PM)": {
+      "206": [
+        "Christie Nyarko"
+      ],
+      "303": [
+        "David Nkansah Mensah"
+      ],
+      "304": [
+        "Debora Sarpomaa Boateng"
+      ],
+      "RMB": [
+        "Evans Tignanlene Nkumicha"
+      ],
+      "NEB-TF": [
+        "Isaac Ayensu",
+        "Lucian Nsiah Sarkodie"
+      ],
+      "NEB-SF": [
+        "Ebenezer Paa Effisah",
+        "Wafawu Mashud"
+      ],
+      "NEB-FF1": [
+        "Erica Abankwah"
+      ],
+      "NEB-FF2": [
+        "Dickson Avonor"
+      ],
+      "VSLA": [
+        "Doreen Asamoah",
+        "Sandra Osei"
+      ],
+      "LT": [
+        "Deborah Osei Kyei"
+      ],
+      "N1": [
+        "Deborah Yaa Brew"
+      ],
+      "N2": [
+        "Eileen Esi Doe"
+      ],
+      "RMA": [
+        "Rukaiya Saeed"
+      ],
+      "PB001": [
+        "Achala Elijah"
+      ],
+      "PB014": [
+        "Nimatu Husein"
+      ],
+      "PB020": [
+        "James Eric Ossom"
+      ],
+      "PB201": [
+        "Benjamin Kwadwo Marfo"
+      ],
+      "PB214": [
+        "Desmond Tenakwah"
+      ],
+      "PB208": [
+        "Edward Ekow Forson"
+      ],
+      "PB212": [
+        "Emmanuel Nkrumah"
+      ],
+      "EA": [
+        "Adasi Vida Birago"
+      ],
+      "A110": [
+        "Felicity Naa Oboshie Torgbor"
+      ],
+      "VCR": [
+        "Osei Kingsley Bonsu"
+      ],
+      "PB008": [
+        "Ankrah Lynn Akorfa"
+      ],
+      "NAF1": [
+        "Akuetteh Regimanuel Korley",
+        "Anafi Samuel"
+      ],
+      "ECR": [
+        "Juliet Osei Bonsu"
+      ]
+    },
+    "Session, 5 (3:15 PM - 4:15 PM)": {
+      "206": [
+        "Nathaniel Agbugblah"
+      ],
+      "303": [
+        "Bernard Essel"
+      ],
+      "304": [
+        "Elliot Amponsah"
+      ],
+      "PB208": [
+        "Biney Owusu"
+      ],
+      "PB008": [
+        "Kingsley Owusu Agyekum"
+      ],
+      "PB212": [
+        "Davida Oforiwaa Adu Gyamfi"
+      ],
+      "VSLA": [
+        "Samuel Agbenu",
+        "Nana Andoh Michael"
+      ],
+      "LT": [
+        "Kwasi Kyei Sarpong"
+      ],
+      "PB001": [
+        "Poku Antwi Kwadwo"
+      ],
+      "PB014": [
+        "Ashanti Atta Al-Hafid"
+      ],
+      "PB020": [
+        "Kumah David Jnr"
+      ],
+      "PB201": [
+        "Lilian Amankwa"
+      ],
+      "PB214": [
+        "Mansur Abubakar"
+      ],
+      "NEB-TF": [
+        "Prince Asare Ange Seraphin",
+        "Archer Michaelina Adu"
+      ],
+      "NAF1": [
+        "Prince Nyame",
+        "Effa Emmanuel"
+      ],
+      "EA": [
+        "Alex Ohemeng Adusei"
+      ],
+      "A110": [
+        "Oliver Kobby Biney"
+      ],
+      "VCR": [
+        "George Wiafe"
+      ],
+      "ECR": [
+        "Christian Kofi Essandoh"
+      ],
+      "NEB-SF": [
+        "Billaly Abdul Hayu",
+        "Kadzi Daniel"
+      ],
+      "NEB-FF1": [
+        "Abdulai Fatimah"
+      ],
+      "NEB-FF2": [
+        "Ohene Kwame Oduro"
+      ],
+      "N1": [
+        "Emmanuel Boadi"
+      ],
+      "RMA": [
+        "Samuel Cudjoe"
+      ],
+      "RMB": [
+        "Koomson Florence Easton"
+      ],
+      "N2": [
+        "Adu, Maxwell Kofi Jr"
+      ]
+    },
+    "Session, 6 (5:00 PM - 6:00 PM)": {
+      "206": [
+        "Oduro Kwame Ohene"
+      ],
+      "303": [
+        "Benard Kojo Aidoo"
+      ],
+      "304": [
+        "Nesco Nanzie Benjamin"
+      ],
+      "NEB-TF": [
+        "Lucas Biiyiin",
+        "Alexander Frimpong"
+      ],
+      "NEB-SF": [
+        "Gideon Kuffour Agyekum",
+        "Edmond Khan"
+      ],
+      "NEB-FF1": [
+        "Darkwah Kingsley Awuah"
+      ],
+      "NEB-FF2": [
+        "Papa Tawiah"
+      ],
+      "NAF1": [
+        "Sebi Kofi Benjamin",
+        "Erica Gado"
+      ],
+      "EA": [
+        "Richmond Donkor"
+      ],
+      "A110": [
+        "Lawrence Cudjoe"
+      ],
+      "ECR": [
+        "Bernard Eshun"
+      ],
+      "VSLA": [
+        "Catherine Arkor Tettey",
+        "Manuel Akuamaoh Boateng"
+      ],
+      "LT": [
+        "Emmanuel Akuetteh Ayite-Atiapa"
+      ],
+      "RMA": [
+        "Christopher Tetteh Morton"
+      ],
+      "RMB": [
+        "Yussif Braimah Iddi"
+      ],
+      "N1": [
+        "Derrick Yeboah Duah"
+      ],
+      "N2": [
+        "Francis Okyere Darko Mensah"
+      ],
+      "PB001": [
+        "Terrance Tenkorang"
+      ],
+      "PB014": [
+        "Augustine Gyening"
+      ],
+      "PB020": [
+        "Divine Adjabeng"
+      ],
+      "PB201": [
+        "Julius Abbey"
+      ],
+      "PB214": [
+        "Derrick Cudjoe"
+      ],
+      "PB208": [
+        "Nii Otoo Lartey"
+      ],
+      "PB008": [
+        "Barnabas Banahene-Owusu"
+      ],
+      "PB212": [
         "Abubakar Muniru"
       ],
       "VCR": [
         "Christie Nyarko"
       ]
-    },
-    "Session, 4 (1:30 PM - 2:30 PM)": {
+    }
+  },
+  "Wednesday, 25 February 2026": {
+    "Session, 1 (8:15 AM - 9:15 AM)": {
       "206": [
         "David Nkansah Mensah"
       ],
@@ -732,81 +992,81 @@
       "304": [
         "Evans Tignanlene Nkumicha"
       ],
-      "RMB": [
+      "A110": [
         "Isaac Ayensu"
       ],
-      "NEB-TF": [
-        "Lucian Nsiah Sarkodie",
+      "EA": [
+        "Lucian Nsiah Sarkodie"
+      ],
+      "VCR": [
         "Ebenezer Paa Effisah"
       ],
-      "NEB-SF": [
+      "NEB-TF": [
         "Wafawu Mashud",
         "Erica Abankwah"
       ],
-      "NEB-FF1": [
-        "Dickson Avonor"
-      ],
-      "NEB-FF2": [
+      "NEB-SF": [
+        "Dickson Avonor",
         "Doreen Asamoah"
       ],
-      "VSLA": [
-        "Sandra Osei",
+      "NEB-FF1": [
+        "Sandra Osei"
+      ],
+      "NEB-FF2": [
         "Deborah Osei Kyei"
       ],
-      "LT": [
-        "Deborah Yaa Brew"
-      ],
-      "N1": [
+      "VSLA": [
+        "Deborah Yaa Brew",
         "Eileen Esi Doe"
       ],
-      "N2": [
+      "LT": [
         "Rukaiya Saeed"
       ],
       "RMA": [
         "Achala Elijah"
       ],
-      "PB001": [
+      "RMB": [
         "Nimatu Husein"
       ],
-      "PB014": [
+      "N1": [
         "James Eric Ossom"
       ],
-      "PB020": [
+      "N2": [
         "Benjamin Kwadwo Marfo"
       ],
-      "PB201": [
-        "Desmond Tenakwah"
-      ],
-      "PB214": [
+      "NAF1": [
+        "Desmond Tenakwah",
         "Edward Ekow Forson"
       ],
-      "PB208": [
+      "ECR": [
         "Emmanuel Nkrumah"
       ],
-      "PB212": [
+      "PB001": [
         "Adasi Vida Birago"
       ],
-      "EA": [
+      "PB014": [
         "Felicity Naa Oboshie Torgbor"
       ],
-      "A110": [
+      "PB020": [
         "Osei Kingsley Bonsu"
       ],
-      "VCR": [
+      "PB201": [
         "Ankrah Lynn Akorfa"
       ],
-      "PB008": [
+      "PB214": [
         "Akuetteh Regimanuel Korley"
       ],
-      "NAF1": [
-        "Anafi Samuel",
+      "PB008": [
+        "Anafi Samuel"
+      ],
+      "PB208": [
         "Juliet Osei Bonsu"
       ],
-      "ECR": [
+      "PB212": [
         "Nathaniel Agbugblah"
       ]
     },
-    "Session, 5 (3:15 PM - 4:15 PM)": {
+    "Session, 2 (10:00 AM - 11:00 AM)": {
       "206": [
         "Bernard Essel"
       ],
@@ -816,81 +1076,81 @@
       "304": [
         "Biney Owusu"
       ],
-      "PB208": [
+      "PB201": [
         "Kingsley Owusu Agyekum"
       ],
-      "PB008": [
+      "PB214": [
         "Davida Oforiwaa Adu Gyamfi"
       ],
-      "PB212": [
+      "PB208": [
         "Samuel Agbenu"
       ],
-      "VSLA": [
-        "Nana Andoh Michael",
+      "PB212": [
+        "Nana Andoh Michael"
+      ],
+      "RMB": [
         "Kwasi Kyei Sarpong"
       ],
-      "LT": [
+      "N1": [
         "Poku Antwi Kwadwo"
       ],
-      "PB001": [
+      "N2": [
         "Ashanti Atta Al-Hafid"
       ],
-      "PB014": [
-        "Kumah David Jnr"
-      ],
-      "PB020": [
+      "NAF1": [
+        "Kumah David Jnr",
         "Lilian Amankwa"
       ],
-      "PB201": [
+      "PB001": [
         "Mansur Abubakar"
       ],
-      "PB214": [
+      "PB014": [
         "Prince Asare Ange Seraphin"
       ],
-      "NEB-TF": [
-        "Archer Michaelina Adu",
+      "PB020": [
+        "Archer Michaelina Adu"
+      ],
+      "PB008": [
         "Prince Nyame"
       ],
-      "NAF1": [
+      "VSLA": [
         "Effa Emmanuel",
         "Alex Ohemeng Adusei"
       ],
-      "EA": [
+      "LT": [
         "Oliver Kobby Biney"
       ],
-      "A110": [
+      "RMA": [
         "George Wiafe"
       ],
-      "VCR": [
+      "NEB-FF1": [
         "Christian Kofi Essandoh"
       ],
-      "ECR": [
-        "Billaly Abdul Hayu"
-      ],
       "NEB-SF": [
-        "Kadzi Daniel",
-        "Abdulai Fatimah"
-      ],
-      "NEB-FF1": [
-        "Ohene Kwame Oduro"
+        "Billaly Abdul Hayu",
+        "Kadzi Daniel"
       ],
       "NEB-FF2": [
+        "Abdulai Fatimah"
+      ],
+      "A110": [
+        "Ohene Kwame Oduro"
+      ],
+      "EA": [
         "Emmanuel Boadi"
       ],
-      "N1": [
+      "VCR": [
         "Samuel Cudjoe"
       ],
-      "RMA": [
-        "Koomson, Florence Easton"
+      "ECR": [
+        "Koomson Florence Easton"
       ],
-      "RMB": [
-        "Adu, Maxwell Kofi Jr"
-      ],
-      "N2": [
-        "Oduro, Kwame Ohene"
+      "NEB-TF": [
+        "Adu, Maxwell Kofi Jr",
+        "Oduro Kwame Ohene"
       ]
     },
-    "Session, 6 (5:00 PM - 6:00 PM)": {
+    "Session, 3 (11:45 AM - 12:45 PM)": {
       "206": [
         "Benard Kojo Aidoo"
       ],
@@ -908,23 +1168,777 @@
         "Edmond Khan",
         "Darkwah Kingsley Awuah"
       ],
-      "NEB-FF1": [
+      "A110": [
         "Papa Tawiah"
       ],
-      "NEB-FF2": [
+      "EA": [
+        "Sebi Kofi Benjamin"
+      ],
+      "VCR": [
         "Erica Gado"
       ],
-      "NAF1": [
-        "Richmond Donkor",
+      "NEB-FF1": [
+        "Richmond Donkor"
+      ],
+      "NEB-FF2": [
         "Lawrence Cudjoe"
       ],
-      "EA": [
+      "PB208": [
         "Bernard Eshun"
       ],
-      "A110": [
+      "PB212": [
         "Catherine Arkor Tettey"
       ],
+      "PB001": [
+        "Manuel Akuamaoh Boateng"
+      ],
+      "PB014": [
+        "Emmanuel Akuetteh Ayite-Atiapa"
+      ],
+      "VSLA": [
+        "Christopher Tetteh Morton",
+        "Yussif Braimah Iddi"
+      ],
+      "PB020": [
+        "Derrick Yeboah Duah"
+      ],
+      "PB201": [
+        "Francis Okyere Darko Mensah"
+      ],
+      "PB214": [
+        "Terrance Tenkorang"
+      ],
+      "PB008": [
+        "Augustine Gyening"
+      ],
+      "LT": [
+        "Divine Adjabeng"
+      ],
+      "RMA": [
+        "Julius Abbey"
+      ],
+      "RMB": [
+        "Derrick Cudjoe"
+      ],
+      "N1": [
+        "Nii Otoo Lartey"
+      ],
+      "N2": [
+        "Barnabas Banahene-Owusu"
+      ],
+      "NAF1": [
+        "Abubakar Muniru",
+        "Christie Nyarko"
+      ],
       "ECR": [
+        "David Nkansah Mensah"
+      ]
+    },
+    "Session, 4 (1:30 PM - 2:30 PM)": {
+      "206": [
+        "Debora Sarpomaa Boateng"
+      ],
+      "303": [
+        "Evans Tignanlene Nkumicha"
+      ],
+      "304": [
+        "Isaac Ayensu"
+      ],
+      "PB001": [
+        "Lucian Nsiah Sarkodie"
+      ],
+      "PB014": [
+        "Ebenezer Paa Effisah"
+      ],
+      "PB020": [
+        "Wafawu Mashud"
+      ],
+      "PB201": [
+        "Erica Abankwah"
+      ],
+      "PB214": [
+        "Dickson Avonor"
+      ],
+      "PB208": [
+        "Doreen Asamoah"
+      ],
+      "PB008": [
+        "Sandra Osei"
+      ],
+      "PB212": [
+        "Deborah Osei Kyei"
+      ],
+      "NAF1": [
+        "Deborah Yaa Brew",
+        "Eileen Esi Doe"
+      ],
+      "EA": [
+        "Rukaiya Saeed"
+      ],
+      "A110": [
+        "Achala Elijah"
+      ],
+      "VCR": [
+        "Nimatu Husein"
+      ],
+      "ECR": [
+        "James Eric Ossom"
+      ],
+      "LT": [
+        "Benjamin Kwadwo Marfo"
+      ],
+      "N2": [
+        "Desmond Tenakwah"
+      ],
+      "RMA": [
+        "Edward Ekow Forson"
+      ],
+      "RMB": [
+        "Emmanuel Nkrumah"
+      ],
+      "VSLA": [
+        "Adasi Vida Birago",
+        "Felicity Naa Oboshie Torgbor"
+      ],
+      "N1": [
+        "Osei Kingsley Bonsu"
+      ],
+      "NEB-TF": [
+        "Ankrah Lynn Akorfa",
+        "Akuetteh Regimanuel Korley"
+      ],
+      "NEB-SF": [
+        "Anafi Samuel",
+        "Juliet Osei Bonsu"
+      ],
+      "NEB-FF1": [
+        "Nathaniel Agbugblah"
+      ],
+      "NEB-FF2": [
+        "Bernard Essel"
+      ]
+    },
+    "Session, 5 (3:15 PM - 4:15 PM)": {
+      "206": [
+        "Elliot Amponsah"
+      ],
+      "303": [
+        "Biney Owusu"
+      ],
+      "304": [
+        "Kingsley Owusu Agyekum"
+      ],
+      "NAF1": [
+        "Davida Oforiwaa Adu Gyamfi",
+        "Samuel Agbenu"
+      ],
+      "EA": [
+        "Nana Andoh Michael"
+      ],
+      "A110": [
+        "Kwasi Kyei Sarpong"
+      ],
+      "VCR": [
+        "Poku Antwi Kwadwo"
+      ],
+      "NEB-FF1": [
+        "Ashanti Atta Al-Hafid"
+      ],
+      "VSLA": [
+        "Kumah David Jnr",
+        "Lilian Amankwa"
+      ],
+      "LT": [
+        "Mansur Abubakar"
+      ],
+      "N2": [
+        "Prince Asare Ange Seraphin"
+      ],
+      "N1": [
+        "Archer Michaelina Adu"
+      ],
+      "RMA": [
+        "Prince Nyame"
+      ],
+      "RMB": [
+        "Effa Emmanuel"
+      ],
+      "PB201": [
+        "Alex Ohemeng Adusei"
+      ],
+      "PB208": [
+        "Oliver Kobby Biney"
+      ],
+      "PB214": [
+        "George Wiafe"
+      ],
+      "PB008": [
+        "Christian Kofi Essandoh"
+      ],
+      "PB001": [
+        "Billaly Abdul Hayu"
+      ],
+      "PB020": [
+        "Kadzi Daniel"
+      ],
+      "PB014": [
+        "Abdulai Fatimah"
+      ],
+      "PB212": [
+        "Ohene Kwame Oduro"
+      ],
+      "NEB-SF": [
+        "Emmanuel Boadi",
+        "Samuel Cudjoe"
+      ],
+      "NEB-FF2": [
+        "Koomson Florence Easton"
+      ],
+      "NEB-TF": [
+        "Adu, Maxwell Kofi Jr",
+        "Oduro Kwame Ohene"
+      ]
+    },
+    "Session, 6 (5:00 PM - 6:00 PM)": {
+      "206": [
+        "Benard Kojo Aidoo"
+      ],
+      "303": [
+        "Nesco Nanzie Benjamin"
+      ],
+      "NEB-FF1": [
+        "Lucas Biiyiin"
+      ],
+      "NEB-FF2": [
+        "Alexander Frimpong"
+      ],
+      "NAF1": [
+        "Gideon Kuffour Agyekum",
+        "Edmond Khan"
+      ],
+      "EA": [
+        "Darkwah Kingsley Awuah"
+      ],
+      "A110": [
+        "Papa Tawiah"
+      ],
+      "ECR": [
+        "Sebi Kofi Benjamin"
+      ],
+      "VCR": [
+        "Erica Gado"
+      ],
+      "PB014": [
+        "Richmond Donkor"
+      ],
+      "PB020": [
+        "Lawrence Cudjoe"
+      ],
+      "PB008": [
+        "Bernard Eshun"
+      ],
+      "VSLA": [
+        "Catherine Arkor Tettey",
+        "Manuel Akuamaoh Boateng"
+      ],
+      "LT": [
+        "Emmanuel Akuetteh Ayite-Atiapa"
+      ],
+      "PB001": [
+        "Christopher Tetteh Morton"
+      ],
+      "PB214": [
+        "Yussif Braimah Iddi"
+      ],
+      "NEB-TF": [
+        "Derrick Yeboah Duah",
+        "Francis Okyere Darko Mensah"
+      ],
+      "NEB-SF": [
+        "Terrance Tenkorang",
+        "Augustine Gyening"
+      ],
+      "PB201": [
+        "Divine Adjabeng"
+      ],
+      "RMA": [
+        "Julius Abbey"
+      ],
+      "RMB": [
+        "Derrick Cudjoe"
+      ],
+      "PB208": [
+        "Nii Otoo Lartey"
+      ]
+    }
+  },
+  "Thursday, 26 February 2026": {
+    "Session, 1 (8:15 AM - 9:15 AM)": {
+      "206": [
+        "Barnabas Banahene-Owusu"
+      ],
+      "303": [
+        "Abubakar Muniru"
+      ],
+      "304": [
+        "Christie Nyarko"
+      ],
+      "NEB-TF": [
+        "David Nkansah Mensah",
+        "Debora Sarpomaa Boateng"
+      ],
+      "NEB-SF": [
+        "Evans Tignanlene Nkumicha",
+        "Isaac Ayensu"
+      ],
+      "NEB-FF1": [
+        "Lucian Nsiah Sarkodie"
+      ],
+      "NEB-FF2": [
+        "Ebenezer Paa Effisah"
+      ],
+      "NAF1": [
+        "Wafawu Mashud",
+        "Erica Abankwah"
+      ],
+      "EA": [
+        "Dickson Avonor"
+      ],
+      "A110": [
+        "Doreen Asamoah"
+      ],
+      "ECR": [
+        "Sandra Osei"
+      ],
+      "VCR": [
+        "Deborah Osei Kyei"
+      ],
+      "VSLA": [
+        "Deborah Yaa Brew",
+        "Eileen Esi Doe"
+      ],
+      "LT": [
+        "Rukaiya Saeed"
+      ],
+      "RMA": [
+        "Achala Elijah"
+      ],
+      "PB001": [
+        "Nimatu Husein"
+      ],
+      "PB020": [
+        "James Eric Ossom"
+      ],
+      "PB014": [
+        "Benjamin Kwadwo Marfo"
+      ],
+      "PB201": [
+        "Desmond Tenakwah"
+      ],
+      "PB214": [
+        "Edward Ekow Forson"
+      ],
+      "PB008": [
+        "Emmanuel Nkrumah"
+      ],
+      "PB208": [
+        "Adasi Vida Birago"
+      ],
+      "N1": [
+        "Felicity Naa Oboshie Torgbor"
+      ],
+      "RMB": [
+        "Osei Kingsley Bonsu"
+      ],
+      "N2": [
+        "Ankrah Lynn Akorfa"
+      ],
+      "PB212": [
+        "Akuetteh Regimanuel Korley"
+      ]
+    },
+    "Session, 2 (10:00 AM - 11:00 AM)": {
+      "206": [
+        "Anafi Samuel"
+      ],
+      "303": [
+        "Juliet Osei Bonsu"
+      ],
+      "304": [
+        "Nathaniel Agbugblah"
+      ],
+      "NAF1": [
+        "Bernard Essel",
+        "Elliot Amponsah"
+      ],
+      "EA": [
+        "Biney Owusu"
+      ],
+      "A110": [
+        "Kingsley Owusu Agyekum"
+      ],
+      "ECR": [
+        "Davida Oforiwaa Adu Gyamfi"
+      ],
+      "VCR": [
+        "Samuel Agbenu"
+      ],
+      "PB001": [
+        "Nana Andoh Michael"
+      ],
+      "PB020": [
+        "Kwasi Kyei Sarpong"
+      ],
+      "PB014": [
+        "Poku Antwi Kwadwo"
+      ],
+      "PB201": [
+        "Ashanti Atta Al-Hafid"
+      ],
+      "PB214": [
+        "Kumah David Jnr"
+      ],
+      "PB208": [
+        "Lilian Amankwa"
+      ],
+      "NEB-FF1": [
+        "Mansur Abubakar"
+      ],
+      "NEB-FF2": [
+        "Prince Asare Ange Seraphin"
+      ],
+      "PB008": [
+        "Archer Michaelina Adu"
+      ],
+      "PB212": [
+        "Prince Nyame"
+      ],
+      "NEB-TF": [
+        "Effa Emmanuel",
+        "Alex Ohemeng Adusei"
+      ],
+      "NEB-SF": [
+        "Oliver Kobby Biney",
+        "George Wiafe"
+      ],
+      "VSLA": [
+        "Christian Kofi Essandoh",
+        "Billaly Abdul Hayu"
+      ],
+      "LT": [
+        "Kadzi Daniel"
+      ],
+      "RMA": [
+        "Abdulai Fatimah"
+      ],
+      "N1": [
+        "Ohene Kwame Oduro"
+      ],
+      "N2": [
+        "Emmanuel Boadi"
+      ],
+      "RMB": [
+        "Samuel Cudjoe"
+      ]
+    },
+    "Session, 3 (11:45 AM - 12:45 PM)": {
+      "206": [
+        "Koomson Florence Easton"
+      ],
+      "303": [
+        "Adu, Maxwell Kofi Jr"
+      ],
+      "304": [
+        "Oduro Kwame Ohene"
+      ],
+      "N1": [
+        "Benard Kojo Aidoo"
+      ],
+      "N2": [
+        "Nesco Nanzie Benjamin"
+      ],
+      "RMA": [
+        "Lucas Biiyiin"
+      ],
+      "NAF1": [
+        "Alexander Frimpong",
+        "Gideon Kuffour Agyekum"
+      ],
+      "EA": [
+        "Edmond Khan"
+      ],
+      "A110": [
+        "Darkwah Kingsley Awuah"
+      ],
+      "ECR": [
+        "Papa Tawiah"
+      ],
+      "VCR": [
+        "Sebi Kofi Benjamin"
+      ],
+      "NEB-SF": [
+        "Erica Gado",
+        "Richmond Donkor"
+      ],
+      "NEB-FF1": [
+        "Lawrence Cudjoe"
+      ],
+      "VSLA": [
+        "Bernard Eshun",
+        "Catherine Arkor Tettey"
+      ],
+      "LT": [
+        "Manuel Akuamaoh Boateng"
+      ],
+      "PB001": [
+        "Emmanuel Akuetteh Ayite-Atiapa"
+      ],
+      "PB020": [
+        "Christopher Tetteh Morton"
+      ],
+      "PB014": [
+        "Yussif Braimah Iddi"
+      ],
+      "PB201": [
+        "Derrick Yeboah Duah"
+      ],
+      "PB214": [
+        "Francis Okyere Darko Mensah"
+      ],
+      "PB208": [
+        "Terrance Tenkorang"
+      ],
+      "PB212": [
+        "Augustine Gyening"
+      ],
+      "NEB-TF": [
+        "Divine Adjabeng",
+        "Julius Abbey"
+      ],
+      "NEB-FF2": [
+        "Derrick Cudjoe"
+      ],
+      "RMB": [
+        "Nii Otoo Lartey"
+      ],
+      "PB008": [
+        "Barnabas Banahene-Owusu"
+      ]
+    },
+    "Session, 4 (1:30 PM - 2:30 PM)": {
+      "206": [
+        "Abubakar Muniru"
+      ],
+      "303": [
+        "Christie Nyarko"
+      ],
+      "304": [
+        "David Nkansah Mensah"
+      ],
+      "NAF1": [
+        "Debora Sarpomaa Boateng",
+        "Evans Tignanlene Nkumicha"
+      ],
+      "EA": [
+        "Isaac Ayensu"
+      ],
+      "A110": [
+        "Lucian Nsiah Sarkodie"
+      ],
+      "VCR": [
+        "Ebenezer Paa Effisah"
+      ],
+      "N1": [
+        "Wafawu Mashud"
+      ],
+      "N2": [
+        "Erica Abankwah"
+      ],
+      "RMA": [
+        "Dickson Avonor"
+      ],
+      "NEB-TF": [
+        "Doreen Asamoah",
+        "Sandra Osei"
+      ],
+      "NEB-SF": [
+        "Deborah Osei Kyei",
+        "Deborah Yaa Brew"
+      ],
+      "NEB-FF1": [
+        "Eileen Esi Doe"
+      ],
+      "NEB-FF2": [
+        "Rukaiya Saeed"
+      ],
+      "ECR": [
+        "Achala Elijah"
+      ],
+      "VSLA": [
+        "Nimatu Husein",
+        "James Eric Ossom"
+      ],
+      "LT": [
+        "Benjamin Kwadwo Marfo"
+      ],
+      "RMB": [
+        "Desmond Tenakwah"
+      ],
+      "PB001": [
+        "Edward Ekow Forson"
+      ],
+      "PB020": [
+        "Emmanuel Nkrumah"
+      ],
+      "PB014": [
+        "Adasi Vida Birago"
+      ],
+      "PB201": [
+        "Felicity Naa Oboshie Torgbor"
+      ],
+      "PB214": [
+        "Osei Kingsley Bonsu"
+      ],
+      "PB008": [
+        "Ankrah Lynn Akorfa"
+      ],
+      "PB212": [
+        "Akuetteh Regimanuel Korley"
+      ],
+      "PB208": [
+        "Anafi Samuel"
+      ]
+    },
+    "Session, 5 (3:15 PM - 4:15 PM)": {
+      "206": [
+        "Juliet Osei Bonsu"
+      ],
+      "303": [
+        "Nathaniel Agbugblah"
+      ],
+      "304": [
+        "Bernard Essel"
+      ],
+      "PB201": [
+        "Elliot Amponsah"
+      ],
+      "PB208": [
+        "Biney Owusu"
+      ],
+      "PB212": [
+        "Kingsley Owusu Agyekum"
+      ],
+      "NEB-TF": [
+        "Davida Oforiwaa Adu Gyamfi",
+        "Samuel Agbenu"
+      ],
+      "NEB-SF": [
+        "Nana Andoh Michael",
+        "Kwasi Kyei Sarpong"
+      ],
+      "NEB-FF1": [
+        "Poku Antwi Kwadwo"
+      ],
+      "NEB-FF2": [
+        "Ashanti Atta Al-Hafid"
+      ],
+      "A110": [
+        "Kumah David Jnr"
+      ],
+      "ECR": [
+        "Lilian Amankwa"
+      ],
+      "VSLA": [
+        "Mansur Abubakar",
+        "Prince Asare Ange Seraphin"
+      ],
+      "LT": [
+        "Archer Michaelina Adu"
+      ],
+      "N1": [
+        "Prince Nyame"
+      ],
+      "RMA": [
+        "Effa Emmanuel"
+      ],
+      "N2": [
+        "Alex Ohemeng Adusei"
+      ],
+      "NAF1": [
+        "Oliver Kobby Biney",
+        "George Wiafe"
+      ],
+      "EA": [
+        "Christian Kofi Essandoh"
+      ],
+      "VCR": [
+        "Billaly Abdul Hayu"
+      ],
+      "RMB": [
+        "Kadzi Daniel"
+      ],
+      "PB214": [
+        "Abdulai Fatimah"
+      ],
+      "PB008": [
+        "Ohene Kwame Oduro"
+      ],
+      "PB001": [
+        "Emmanuel Boadi"
+      ],
+      "PB020": [
+        "Samuel Cudjoe"
+      ],
+      "PB014": [
+        "Koomson Florence Easton"
+      ]
+    },
+    "Session, 6 (5:00 PM - 6:00 PM)": {
+      "206": [
+        "Adu, Maxwell Kofi Jr"
+      ],
+      "303": [
+        "Oduro Kwame Ohene"
+      ],
+      "304": [
+        "Benard Kojo Aidoo"
+      ],
+      "PB214": [
+        "Nesco Nanzie Benjamin"
+      ],
+      "PB212": [
+        "Lucas Biiyiin"
+      ],
+      "PB208": [
+        "Alexander Frimpong"
+      ],
+      "PB008": [
+        "Gideon Kuffour Agyekum"
+      ],
+      "NAF1": [
+        "Edmond Khan",
+        "Darkwah Kingsley Awuah"
+      ],
+      "EA": [
+        "Papa Tawiah"
+      ],
+      "A110": [
+        "Sebi Kofi Benjamin"
+      ],
+      "ECR": [
+        "Erica Gado"
+      ],
+      "VCR": [
+        "Richmond Donkor"
+      ],
+      "NEB-FF1": [
+        "Lawrence Cudjoe"
+      ],
+      "NEB-FF2": [
+        "Bernard Eshun"
+      ],
+      "NEB-SF": [
+        "Catherine Arkor Tettey",
         "Manuel Akuamaoh Boateng"
       ],
       "VSLA": [
@@ -946,1520 +1960,512 @@
       "N2": [
         "Augustine Gyening"
       ],
-      "PB001": [
-        "Divine Adjabeng"
-      ],
-      "PB014": [
-        "Julius Abbey"
-      ],
-      "PB020": [
-        "Derrick Cudjoe"
-      ],
-      "PB201": [
-        "Nii Otoo Lartey"
-      ],
-      "PB214": [
-        "Barnabas Banahene-Owusu"
-      ],
-      "PB208": [
-        "Abubakar Muniru"
-      ],
-      "PB008": [
-        "Christie Nyarko"
-      ],
-      "PB212": [
-        "David Nkansah Mensah"
-      ],
-      "VCR": [
-        "Debora Sarpomaa Boateng"
-      ]
-    }
-  },
-  "Wednesday, 25 February 2026": {
-    "Session, 1 (8:15 AM - 9:15 AM)": {
-      "206": [
-        "Evans Tignanlene Nkumicha"
-      ],
-      "303": [
-        "Isaac Ayensu"
-      ],
-      "304": [
-        "Lucian Nsiah Sarkodie"
-      ],
-      "A110": [
-        "Ebenezer Paa Effisah"
-      ],
-      "EA": [
-        "Wafawu Mashud"
-      ],
-      "VCR": [
-        "Erica Abankwah"
-      ],
-      "NEB-TF": [
-        "Dickson Avonor",
-        "Doreen Asamoah"
-      ],
-      "NEB-SF": [
-        "Sandra Osei",
-        "Deborah Osei Kyei"
-      ],
-      "NEB-FF1": [
-        "Deborah Yaa Brew"
-      ],
-      "NEB-FF2": [
-        "Eileen Esi Doe"
-      ],
-      "VSLA": [
-        "Rukaiya Saeed",
-        "Achala Elijah"
-      ],
-      "LT": [
-        "Nimatu Husein"
-      ],
-      "RMA": [
-        "James Eric Ossom"
-      ],
-      "RMB": [
-        "Benjamin Kwadwo Marfo"
-      ],
-      "N1": [
-        "Desmond Tenakwah"
-      ],
-      "N2": [
-        "Edward Ekow Forson"
-      ],
-      "NAF1": [
-        "Emmanuel Nkrumah",
-        "Adasi Vida Birago"
-      ],
-      "ECR": [
-        "Felicity Naa Oboshie Torgbor"
-      ],
-      "PB001": [
-        "Osei Kingsley Bonsu"
-      ],
-      "PB014": [
-        "Ankrah Lynn Akorfa"
-      ],
-      "PB020": [
-        "Akuetteh Regimanuel Korley"
-      ],
-      "PB201": [
-        "Anafi Samuel"
-      ],
-      "PB214": [
-        "Juliet Osei Bonsu"
-      ],
-      "PB008": [
-        "Nathaniel Agbugblah"
-      ],
-      "PB208": [
-        "Bernard Essel"
-      ],
-      "PB212": [
-        "Elliot Amponsah"
-      ]
-    },
-    "Session, 2 (10:00 AM - 11:00 AM)": {
-      "206": [
-        "Biney Owusu"
-      ],
-      "303": [
-        "Kingsley Owusu Agyekum"
-      ],
-      "304": [
-        "Davida Oforiwaa Adu Gyamfi"
-      ],
-      "PB201": [
-        "Samuel Agbenu"
-      ],
-      "PB214": [
-        "Nana Andoh Michael"
-      ],
-      "PB208": [
-        "Kwasi Kyei Sarpong"
-      ],
-      "PB212": [
-        "Poku Antwi Kwadwo"
-      ],
-      "RMB": [
-        "Ashanti Atta Al-Hafid"
-      ],
-      "N1": [
-        "Kumah David Jnr"
-      ],
-      "N2": [
-        "Lilian Amankwa"
-      ],
-      "NAF1": [
-        "Mansur Abubakar",
-        "Prince Asare Ange Seraphin"
-      ],
-      "PB001": [
-        "Archer Michaelina Adu"
-      ],
-      "PB014": [
-        "Prince Nyame"
-      ],
-      "PB020": [
-        "Effa Emmanuel"
-      ],
-      "PB008": [
-        "Alex Ohemeng Adusei"
-      ],
-      "VSLA": [
-        "Oliver Kobby Biney",
-        "George Wiafe"
-      ],
-      "LT": [
-        "Christian Kofi Essandoh"
-      ],
-      "RMA": [
-        "Billaly Abdul Hayu"
-      ],
-      "NEB-FF1": [
-        "Kadzi Daniel"
-      ],
-      "NEB-SF": [
-        "Abdulai Fatimah",
-        "Ohene Kwame Oduro"
-      ],
-      "NEB-FF2": [
-        "Emmanuel Boadi"
-      ],
-      "A110": [
-        "Samuel Cudjoe"
-      ],
-      "EA": [
-        "Koomson, Florence Easton"
-      ],
-      "VCR": [
-        "Adu, Maxwell Kofi Jr"
-      ],
-      "ECR": [
-        "Oduro, Kwame Ohene"
-      ],
-      "NEB-TF": [
-        "Benard Kojo Aidoo",
-        "Nesco Nanzie Benjamin"
-      ]
-    },
-    "Session, 3 (11:45 AM - 12:45 PM)": {
-      "206": [
-        "Lucas Biiyiin"
-      ],
-      "303": [
-        "Alexander Frimpong"
-      ],
-      "304": [
-        "Gideon Kuffour Agyekum"
-      ],
-      "NEB-TF": [
-        "Edmond Khan",
-        "Darkwah Kingsley Awuah"
-      ],
-      "NEB-SF": [
-        "Papa Tawiah",
-        "Erica Gado"
-      ],
-      "A110": [
-        "Richmond Donkor"
-      ],
-      "EA": [
-        "Lawrence Cudjoe"
-      ],
-      "VCR": [
-        "Bernard Eshun"
-      ],
-      "NEB-FF1": [
-        "Catherine Arkor Tettey"
-      ],
-      "NEB-FF2": [
-        "Manuel Akuamaoh Boateng"
-      ],
-      "PB208": [
-        "Emmanuel Akuetteh Ayite-Atiapa"
-      ],
-      "PB212": [
-        "Christopher Tetteh Morton"
-      ],
-      "PB001": [
-        "Yussif Braimah Iddi"
-      ],
-      "PB014": [
-        "Derrick Yeboah Duah"
-      ],
-      "VSLA": [
-        "Francis Okyere Darko Mensah",
-        "Terrance Tenkorang"
-      ],
-      "PB020": [
-        "Augustine Gyening"
-      ],
-      "PB201": [
-        "Divine Adjabeng"
-      ],
-      "PB214": [
-        "Julius Abbey"
-      ],
-      "PB008": [
-        "Derrick Cudjoe"
-      ],
-      "LT": [
-        "Nii Otoo Lartey"
-      ],
-      "RMA": [
-        "Barnabas Banahene-Owusu"
-      ],
-      "RMB": [
-        "Abubakar Muniru"
-      ],
-      "N1": [
-        "Christie Nyarko"
-      ],
-      "N2": [
-        "David Nkansah Mensah"
-      ],
-      "NAF1": [
-        "Debora Sarpomaa Boateng",
-        "Evans Tignanlene Nkumicha"
-      ],
-      "ECR": [
-        "Isaac Ayensu"
-      ]
-    },
-    "Session, 4 (1:30 PM - 2:30 PM)": {
-      "206": [
-        "Lucian Nsiah Sarkodie"
-      ],
-      "303": [
-        "Ebenezer Paa Effisah"
-      ],
-      "304": [
-        "Wafawu Mashud"
-      ],
-      "PB001": [
-        "Erica Abankwah"
-      ],
-      "PB014": [
-        "Dickson Avonor"
-      ],
-      "PB020": [
-        "Doreen Asamoah"
-      ],
-      "PB201": [
-        "Sandra Osei"
-      ],
-      "PB214": [
-        "Deborah Osei Kyei"
-      ],
-      "PB208": [
-        "Deborah Yaa Brew"
-      ],
-      "PB008": [
-        "Eileen Esi Doe"
-      ],
-      "PB212": [
-        "Rukaiya Saeed"
-      ],
-      "NAF1": [
-        "Achala Elijah",
-        "Nimatu Husein"
-      ],
-      "EA": [
-        "James Eric Ossom"
-      ],
-      "A110": [
-        "Benjamin Kwadwo Marfo"
-      ],
-      "VCR": [
-        "Desmond Tenakwah"
-      ],
-      "ECR": [
-        "Edward Ekow Forson"
-      ],
-      "LT": [
-        "Emmanuel Nkrumah"
-      ],
-      "N2": [
-        "Adasi Vida Birago"
-      ],
-      "RMA": [
-        "Felicity Naa Oboshie Torgbor"
-      ],
-      "RMB": [
-        "Osei Kingsley Bonsu"
-      ],
-      "VSLA": [
-        "Ankrah Lynn Akorfa",
-        "Akuetteh Regimanuel Korley"
-      ],
-      "N1": [
-        "Anafi Samuel"
-      ],
-      "NEB-TF": [
-        "Juliet Osei Bonsu",
-        "Nathaniel Agbugblah"
-      ],
-      "NEB-SF": [
-        "Bernard Essel",
-        "Elliot Amponsah"
-      ],
-      "NEB-FF1": [
-        "Biney Owusu"
-      ],
-      "NEB-FF2": [
-        "Kingsley Owusu Agyekum"
-      ]
-    },
-    "Session, 5 (3:15 PM - 4:15 PM)": {
-      "206": [
-        "Davida Oforiwaa Adu Gyamfi"
-      ],
-      "303": [
-        "Samuel Agbenu"
-      ],
-      "304": [
-        "Nana Andoh Michael"
-      ],
-      "NAF1": [
-        "Kwasi Kyei Sarpong",
-        "Poku Antwi Kwadwo"
-      ],
-      "EA": [
-        "Ashanti Atta Al-Hafid"
-      ],
-      "A110": [
-        "Kumah David Jnr"
-      ],
-      "VCR": [
-        "Lilian Amankwa"
-      ],
-      "NEB-FF1": [
-        "Mansur Abubakar"
-      ],
-      "VSLA": [
-        "Prince Asare Ange Seraphin",
-        "Archer Michaelina Adu"
-      ],
-      "LT": [
-        "Prince Nyame"
-      ],
-      "N2": [
-        "Effa Emmanuel"
-      ],
-      "N1": [
-        "Alex Ohemeng Adusei"
-      ],
-      "RMA": [
-        "Oliver Kobby Biney"
-      ],
-      "RMB": [
-        "George Wiafe"
-      ],
-      "PB201": [
-        "Christian Kofi Essandoh"
-      ],
-      "PB208": [
-        "Billaly Abdul Hayu"
-      ],
-      "PB214": [
-        "Kadzi Daniel"
-      ],
-      "PB008": [
-        "Abdulai Fatimah"
-      ],
-      "PB001": [
-        "Ohene Kwame Oduro"
-      ],
-      "PB020": [
-        "Emmanuel Boadi"
-      ],
-      "PB014": [
-        "Samuel Cudjoe"
-      ],
-      "PB212": [
-        "Koomson, Florence Easton"
-      ],
-      "NEB-SF": [
-        "Adu, Maxwell Kofi Jr",
-        "Oduro, Kwame Ohene"
-      ],
-      "NEB-FF2": [
-        "Benard Kojo Aidoo"
-      ],
-      "NEB-TF": [
-        "Nesco Nanzie Benjamin",
-        "Lucas Biiyiin"
-      ]
-    },
-    "Session, 6 (5:00 PM - 6:00 PM)": {
-      "206": [
-        "Alexander Frimpong"
-      ],
-      "303": [
-        "Gideon Kuffour Agyekum"
-      ],
-      "NEB-FF1": [
-        "Edmond Khan"
-      ],
-      "NEB-FF2": [
-        "Darkwah Kingsley Awuah"
-      ],
-      "NAF1": [
-        "Papa Tawiah",
-        "Erica Gado"
-      ],
-      "EA": [
-        "Richmond Donkor"
-      ],
-      "A110": [
-        "Lawrence Cudjoe"
-      ],
-      "ECR": [
-        "Bernard Eshun"
-      ],
-      "VCR": [
-        "Catherine Arkor Tettey"
-      ],
-      "PB014": [
-        "Manuel Akuamaoh Boateng"
-      ],
-      "PB020": [
-        "Emmanuel Akuetteh Ayite-Atiapa"
-      ],
-      "PB008": [
-        "Christopher Tetteh Morton"
-      ],
-      "VSLA": [
-        "Yussif Braimah Iddi",
-        "Derrick Yeboah Duah"
-      ],
-      "LT": [
-        "Francis Okyere Darko Mensah"
-      ],
-      "PB001": [
-        "Terrance Tenkorang"
-      ],
-      "PB214": [
-        "Augustine Gyening"
-      ],
       "NEB-TF": [
         "Divine Adjabeng",
         "Julius Abbey"
       ],
-      "NEB-SF": [
-        "Derrick Cudjoe",
-        "Nii Otoo Lartey"
-      ],
-      "PB201": [
-        "Barnabas Banahene-Owusu"
-      ],
-      "RMA": [
-        "Abubakar Muniru"
-      ],
-      "RMB": [
-        "Christie Nyarko"
-      ],
-      "PB208": [
-        "David Nkansah Mensah"
-      ]
-    }
-  },
-  "Thursday, 26 February 2026": {
-    "Session, 1 (8:15 AM - 9:15 AM)": {
-      "206": [
-        "Debora Sarpomaa Boateng"
-      ],
-      "303": [
-        "Evans Tignanlene Nkumicha"
-      ],
-      "304": [
-        "Isaac Ayensu"
-      ],
-      "NEB-TF": [
-        "Lucian Nsiah Sarkodie",
-        "Ebenezer Paa Effisah"
-      ],
-      "NEB-SF": [
-        "Wafawu Mashud",
-        "Erica Abankwah"
-      ],
-      "NEB-FF1": [
-        "Dickson Avonor"
-      ],
-      "NEB-FF2": [
-        "Doreen Asamoah"
-      ],
-      "NAF1": [
-        "Sandra Osei",
-        "Deborah Osei Kyei"
-      ],
-      "EA": [
-        "Deborah Yaa Brew"
-      ],
-      "A110": [
-        "Eileen Esi Doe"
-      ],
-      "ECR": [
-        "Rukaiya Saeed"
-      ],
-      "VCR": [
-        "Achala Elijah"
-      ],
-      "VSLA": [
-        "Nimatu Husein",
-        "James Eric Ossom"
-      ],
-      "LT": [
-        "Benjamin Kwadwo Marfo"
-      ],
-      "RMA": [
-        "Desmond Tenakwah"
-      ],
       "PB001": [
-        "Edward Ekow Forson"
-      ],
-      "PB020": [
-        "Emmanuel Nkrumah"
-      ],
-      "PB014": [
-        "Adasi Vida Birago"
-      ],
-      "PB201": [
-        "Felicity Naa Oboshie Torgbor"
-      ],
-      "PB214": [
-        "Osei Kingsley Bonsu"
-      ],
-      "PB008": [
-        "Ankrah Lynn Akorfa"
-      ],
-      "PB208": [
-        "Akuetteh Regimanuel Korley"
-      ],
-      "N1": [
-        "Anafi Samuel"
-      ],
-      "RMB": [
-        "Juliet Osei Bonsu"
-      ],
-      "N2": [
-        "Nathaniel Agbugblah"
-      ],
-      "PB212": [
-        "Bernard Essel"
-      ]
-    },
-    "Session, 2 (10:00 AM - 11:00 AM)": {
-      "206": [
-        "Elliot Amponsah"
-      ],
-      "303": [
-        "Biney Owusu"
-      ],
-      "304": [
-        "Kingsley Owusu Agyekum"
-      ],
-      "NAF1": [
-        "Davida Oforiwaa Adu Gyamfi",
-        "Samuel Agbenu"
-      ],
-      "EA": [
-        "Nana Andoh Michael"
-      ],
-      "A110": [
-        "Kwasi Kyei Sarpong"
-      ],
-      "ECR": [
-        "Poku Antwi Kwadwo"
-      ],
-      "VCR": [
-        "Ashanti Atta Al-Hafid"
-      ],
-      "PB001": [
-        "Kumah David Jnr"
-      ],
-      "PB020": [
-        "Lilian Amankwa"
-      ],
-      "PB014": [
-        "Mansur Abubakar"
-      ],
-      "PB201": [
-        "Prince Asare Ange Seraphin"
-      ],
-      "PB214": [
-        "Archer Michaelina Adu"
-      ],
-      "PB208": [
-        "Prince Nyame"
-      ],
-      "NEB-FF1": [
-        "Effa Emmanuel"
-      ],
-      "NEB-FF2": [
-        "Alex Ohemeng Adusei"
-      ],
-      "PB008": [
-        "Oliver Kobby Biney"
-      ],
-      "PB212": [
-        "George Wiafe"
-      ],
-      "NEB-TF": [
-        "Christian Kofi Essandoh",
-        "Billaly Abdul Hayu"
-      ],
-      "NEB-SF": [
-        "Kadzi Daniel",
-        "Abdulai Fatimah"
-      ],
-      "VSLA": [
-        "Ohene Kwame Oduro",
-        "Emmanuel Boadi"
-      ],
-      "LT": [
-        "Samuel Cudjoe"
-      ],
-      "RMA": [
-        "Koomson, Florence Easton"
-      ],
-      "N1": [
-        "Adu, Maxwell Kofi Jr"
-      ],
-      "N2": [
-        "Oduro, Kwame Ohene"
-      ],
-      "RMB": [
-        "Benard Kojo Aidoo"
-      ]
-    },
-    "Session, 3 (11:45 AM - 12:45 PM)": {
-      "206": [
-        "Nesco Nanzie Benjamin"
-      ],
-      "303": [
-        "Lucas Biiyiin"
-      ],
-      "304": [
-        "Alexander Frimpong"
-      ],
-      "N1": [
-        "Gideon Kuffour Agyekum"
-      ],
-      "N2": [
-        "Edmond Khan"
-      ],
-      "RMA": [
-        "Darkwah Kingsley Awuah"
-      ],
-      "NAF1": [
-        "Papa Tawiah",
-        "Erica Gado"
-      ],
-      "EA": [
-        "Richmond Donkor"
-      ],
-      "A110": [
-        "Lawrence Cudjoe"
-      ],
-      "ECR": [
-        "Bernard Eshun"
-      ],
-      "VCR": [
-        "Catherine Arkor Tettey"
-      ],
-      "NEB-SF": [
-        "Manuel Akuamaoh Boateng",
-        "Emmanuel Akuetteh Ayite-Atiapa"
-      ],
-      "NEB-FF1": [
-        "Christopher Tetteh Morton"
-      ],
-      "VSLA": [
-        "Yussif Braimah Iddi",
-        "Derrick Yeboah Duah"
-      ],
-      "LT": [
-        "Francis Okyere Darko Mensah"
-      ],
-      "PB001": [
-        "Terrance Tenkorang"
-      ],
-      "PB020": [
-        "Augustine Gyening"
-      ],
-      "PB014": [
-        "Divine Adjabeng"
-      ],
-      "PB201": [
-        "Julius Abbey"
-      ],
-      "PB214": [
         "Derrick Cudjoe"
       ],
-      "PB208": [
+      "PB020": [
         "Nii Otoo Lartey"
       ],
-      "PB212": [
+      "PB014": [
         "Barnabas Banahene-Owusu"
       ],
-      "NEB-TF": [
-        "Abubakar Muniru",
-        "Christie Nyarko"
-      ],
-      "NEB-FF2": [
-        "David Nkansah Mensah"
-      ],
-      "RMB": [
-        "Debora Sarpomaa Boateng"
-      ],
-      "PB008": [
-        "Evans Tignanlene Nkumicha"
-      ]
-    },
-    "Session, 4 (1:30 PM - 2:30 PM)": {
-      "206": [
-        "Isaac Ayensu"
-      ],
-      "303": [
-        "Lucian Nsiah Sarkodie"
-      ],
-      "304": [
-        "Ebenezer Paa Effisah"
-      ],
-      "NAF1": [
-        "Wafawu Mashud",
-        "Erica Abankwah"
-      ],
-      "EA": [
-        "Dickson Avonor"
-      ],
-      "A110": [
-        "Doreen Asamoah"
-      ],
-      "VCR": [
-        "Sandra Osei"
-      ],
-      "N1": [
-        "Deborah Osei Kyei"
-      ],
-      "N2": [
-        "Deborah Yaa Brew"
-      ],
-      "RMA": [
-        "Eileen Esi Doe"
-      ],
-      "NEB-TF": [
-        "Rukaiya Saeed",
-        "Achala Elijah"
-      ],
-      "NEB-SF": [
-        "Nimatu Husein",
-        "James Eric Ossom"
-      ],
-      "NEB-FF1": [
-        "Benjamin Kwadwo Marfo"
-      ],
-      "NEB-FF2": [
-        "Desmond Tenakwah"
-      ],
-      "ECR": [
-        "Edward Ekow Forson"
-      ],
-      "VSLA": [
-        "Emmanuel Nkrumah",
-        "Adasi Vida Birago"
-      ],
-      "LT": [
-        "Felicity Naa Oboshie Torgbor"
-      ],
-      "RMB": [
-        "Osei Kingsley Bonsu"
-      ],
-      "PB001": [
-        "Ankrah Lynn Akorfa"
-      ],
-      "PB020": [
-        "Akuetteh Regimanuel Korley"
-      ],
-      "PB014": [
-        "Anafi Samuel"
-      ],
       "PB201": [
-        "Juliet Osei Bonsu"
-      ],
-      "PB214": [
-        "Nathaniel Agbugblah"
-      ],
-      "PB008": [
-        "Bernard Essel"
-      ],
-      "PB212": [
-        "Elliot Amponsah"
-      ],
-      "PB208": [
-        "Biney Owusu"
-      ]
-    },
-    "Session, 5 (3:15 PM - 4:15 PM)": {
-      "206": [
-        "Kingsley Owusu Agyekum"
-      ],
-      "303": [
-        "Davida Oforiwaa Adu Gyamfi"
-      ],
-      "304": [
-        "Samuel Agbenu"
-      ],
-      "PB201": [
-        "Nana Andoh Michael"
-      ],
-      "PB208": [
-        "Kwasi Kyei Sarpong"
-      ],
-      "PB212": [
-        "Poku Antwi Kwadwo"
-      ],
-      "NEB-TF": [
-        "Ashanti Atta Al-Hafid",
-        "Kumah David Jnr"
-      ],
-      "NEB-SF": [
-        "Lilian Amankwa",
-        "Mansur Abubakar"
-      ],
-      "NEB-FF1": [
-        "Prince Asare Ange Seraphin"
-      ],
-      "NEB-FF2": [
-        "Archer Michaelina Adu"
-      ],
-      "A110": [
-        "Prince Nyame"
-      ],
-      "ECR": [
-        "Effa Emmanuel"
-      ],
-      "VSLA": [
-        "Alex Ohemeng Adusei",
-        "Oliver Kobby Biney"
-      ],
-      "LT": [
-        "George Wiafe"
-      ],
-      "N1": [
-        "Christian Kofi Essandoh"
-      ],
-      "RMA": [
-        "Billaly Abdul Hayu"
-      ],
-      "N2": [
-        "Kadzi Daniel"
-      ],
-      "NAF1": [
-        "Abdulai Fatimah",
-        "Ohene Kwame Oduro"
-      ],
-      "EA": [
-        "Emmanuel Boadi"
-      ],
-      "VCR": [
-        "Samuel Cudjoe"
-      ],
-      "RMB": [
-        "Koomson, Florence Easton"
-      ],
-      "PB214": [
-        "Adu, Maxwell Kofi Jr"
-      ],
-      "PB008": [
-        "Oduro, Kwame Ohene"
-      ],
-      "PB001": [
-        "Benard Kojo Aidoo"
-      ],
-      "PB020": [
-        "Nesco Nanzie Benjamin"
-      ],
-      "PB014": [
-        "Lucas Biiyiin"
-      ]
-    },
-    "Session, 6 (5:00 PM - 6:00 PM)": {
-      "206": [
-        "Alexander Frimpong"
-      ],
-      "303": [
-        "Gideon Kuffour Agyekum"
-      ],
-      "304": [
-        "Edmond Khan"
-      ],
-      "PB214": [
-        "Darkwah Kingsley Awuah"
-      ],
-      "PB212": [
-        "Papa Tawiah"
-      ],
-      "PB208": [
-        "Erica Gado"
-      ],
-      "PB008": [
-        "Richmond Donkor"
-      ],
-      "NAF1": [
-        "Lawrence Cudjoe",
-        "Bernard Eshun"
-      ],
-      "EA": [
-        "Catherine Arkor Tettey"
-      ],
-      "A110": [
-        "Manuel Akuamaoh Boateng"
-      ],
-      "ECR": [
-        "Emmanuel Akuetteh Ayite-Atiapa"
-      ],
-      "VCR": [
-        "Christopher Tetteh Morton"
-      ],
-      "NEB-FF1": [
-        "Yussif Braimah Iddi"
-      ],
-      "NEB-FF2": [
-        "Derrick Yeboah Duah"
-      ],
-      "NEB-SF": [
-        "Francis Okyere Darko Mensah",
-        "Terrance Tenkorang"
-      ],
-      "VSLA": [
-        "Augustine Gyening",
-        "Divine Adjabeng"
-      ],
-      "LT": [
-        "Julius Abbey"
-      ],
-      "RMA": [
-        "Derrick Cudjoe"
-      ],
-      "RMB": [
-        "Nii Otoo Lartey"
-      ],
-      "N1": [
-        "Barnabas Banahene-Owusu"
-      ],
-      "N2": [
         "Abubakar Muniru"
-      ],
-      "NEB-TF": [
-        "Christie Nyarko",
-        "David Nkansah Mensah"
-      ],
-      "PB001": [
-        "Debora Sarpomaa Boateng"
-      ],
-      "PB020": [
-        "Evans Tignanlene Nkumicha"
-      ],
-      "PB014": [
-        "Isaac Ayensu"
-      ],
-      "PB201": [
-        "Lucian Nsiah Sarkodie"
       ]
     }
   },
   "Friday, 27 February 2026": {
     "Session, 1 (8:15 AM - 9:15 AM)": {
       "206": [
-        "Ebenezer Paa Effisah"
+        "Christie Nyarko"
       ],
       "303": [
-        "Wafawu Mashud"
+        "David Nkansah Mensah"
       ],
       "304": [
-        "Erica Abankwah"
+        "Debora Sarpomaa Boateng"
       ],
       "NAF1": [
-        "Dickson Avonor",
-        "Doreen Asamoah"
+        "Evans Tignanlene Nkumicha",
+        "Isaac Ayensu"
       ],
       "A110": [
-        "Sandra Osei"
+        "Lucian Nsiah Sarkodie"
       ],
       "VSLA": [
-        "Deborah Osei Kyei",
-        "Deborah Yaa Brew"
+        "Ebenezer Paa Effisah",
+        "Wafawu Mashud"
       ],
       "LT": [
-        "Eileen Esi Doe"
+        "Erica Abankwah"
       ],
       "N1": [
-        "Rukaiya Saeed"
+        "Dickson Avonor"
       ],
       "RMA": [
-        "Achala Elijah"
+        "Doreen Asamoah"
       ],
       "RMB": [
-        "Nimatu Husein"
+        "Sandra Osei"
       ],
       "N2": [
-        "James Eric Ossom"
+        "Deborah Osei Kyei"
       ],
       "VCR": [
-        "Benjamin Kwadwo Marfo"
+        "Deborah Yaa Brew"
       ],
       "PB001": [
-        "Desmond Tenakwah"
+        "Eileen Esi Doe"
       ],
       "PB014": [
-        "Edward Ekow Forson"
+        "Rukaiya Saeed"
       ],
       "PB020": [
-        "Emmanuel Nkrumah"
+        "Achala Elijah"
       ],
       "PB201": [
-        "Adasi Vida Birago"
+        "Nimatu Husein"
       ],
       "PB214": [
-        "Felicity Naa Oboshie Torgbor"
+        "James Eric Ossom"
       ],
       "PB008": [
-        "Osei Kingsley Bonsu"
+        "Benjamin Kwadwo Marfo"
       ],
       "PB208": [
-        "Ankrah Lynn Akorfa"
+        "Desmond Tenakwah"
       ],
       "PB212": [
-        "Akuetteh Regimanuel Korley"
+        "Edward Ekow Forson"
       ],
       "EA": [
-        "Anafi Samuel"
+        "Emmanuel Nkrumah"
       ],
       "NEB-SF": [
-        "Juliet Osei Bonsu",
-        "Nathaniel Agbugblah"
+        "Adasi Vida Birago",
+        "Felicity Naa Oboshie Torgbor"
       ],
       "NEB-TF": [
-        "Bernard Essel",
-        "Elliot Amponsah"
+        "Osei Kingsley Bonsu",
+        "Ankrah Lynn Akorfa"
       ],
       "NEB-FF1": [
-        "Biney Owusu"
+        "Akuetteh Regimanuel Korley"
       ],
       "NEB-FF2": [
-        "Kingsley Owusu Agyekum"
+        "Anafi Samuel"
       ]
     },
     "Session, 2 (10:00 AM - 11:00 AM)": {
       "206": [
-        "Davida Oforiwaa Adu Gyamfi"
+        "Juliet Osei Bonsu"
       ],
       "303": [
-        "Samuel Agbenu"
+        "Nathaniel Agbugblah"
       ],
       "304": [
-        "Nana Andoh Michael"
+        "Bernard Essel"
       ],
       "VSLA": [
-        "Kwasi Kyei Sarpong",
-        "Poku Antwi Kwadwo"
+        "Elliot Amponsah",
+        "Biney Owusu"
       ],
       "RMA": [
-        "Ashanti Atta Al-Hafid"
+        "Kingsley Owusu Agyekum"
       ],
       "N2": [
-        "Kumah David Jnr"
+        "Davida Oforiwaa Adu Gyamfi"
       ],
       "LT": [
-        "Lilian Amankwa"
+        "Samuel Agbenu"
       ],
       "RMB": [
-        "Mansur Abubakar"
+        "Nana Andoh Michael"
       ],
       "PB020": [
-        "Prince Asare Ange Seraphin"
+        "Kwasi Kyei Sarpong"
       ],
       "PB201": [
-        "Archer Michaelina Adu"
+        "Poku Antwi Kwadwo"
       ],
       "PB008": [
-        "Prince Nyame"
+        "Ashanti Atta Al-Hafid"
       ],
       "PB212": [
-        "Effa Emmanuel"
+        "Kumah David Jnr"
       ],
       "PB001": [
-        "Alex Ohemeng Adusei"
+        "Lilian Amankwa"
       ],
       "PB014": [
-        "Oliver Kobby Biney"
+        "Mansur Abubakar"
       ],
       "PB214": [
-        "George Wiafe"
+        "Prince Asare Ange Seraphin"
       ],
       "PB208": [
-        "Christian Kofi Essandoh"
+        "Archer Michaelina Adu"
       ],
       "NAF1": [
+        "Prince Nyame",
+        "Effa Emmanuel"
+      ],
+      "A110": [
+        "Alex Ohemeng Adusei"
+      ],
+      "NEB-TF": [
+        "Oliver Kobby Biney",
+        "George Wiafe"
+      ],
+      "N1": [
+        "Christian Kofi Essandoh"
+      ],
+      "NEB-SF": [
         "Billaly Abdul Hayu",
         "Kadzi Daniel"
       ],
-      "A110": [
+      "NEB-FF1": [
         "Abdulai Fatimah"
       ],
-      "NEB-TF": [
-        "Ohene Kwame Oduro",
-        "Emmanuel Boadi"
-      ],
-      "N1": [
-        "Samuel Cudjoe"
-      ],
-      "NEB-SF": [
-        "Koomson, Florence Easton",
-        "Adu, Maxwell Kofi Jr"
-      ],
-      "NEB-FF1": [
-        "Oduro, Kwame Ohene"
-      ],
       "NEB-FF2": [
-        "Benard Kojo Aidoo"
-      ],
-      "EA": [
-        "Nesco Nanzie Benjamin"
-      ],
-      "VCR": [
-        "Lucas Biiyiin"
-      ],
-      "ECR": [
-        "Alexander Frimpong"
-      ]
-    },
-    "Session, 3 (11:45 AM - 12:45 PM)": {
-      "206": [
-        "Gideon Kuffour Agyekum"
-      ],
-      "303": [
-        "Edmond Khan"
-      ],
-      "304": [
-        "Darkwah Kingsley Awuah"
-      ],
-      "PB001": [
-        "Papa Tawiah"
-      ],
-      "PB014": [
-        "Erica Gado"
-      ],
-      "PB214": [
-        "Richmond Donkor"
-      ],
-      "PB208": [
-        "Lawrence Cudjoe"
-      ],
-      "PB212": [
-        "Bernard Eshun"
-      ],
-      "PB020": [
-        "Catherine Arkor Tettey"
-      ],
-      "PB201": [
-        "Manuel Akuamaoh Boateng"
-      ],
-      "PB008": [
-        "Emmanuel Akuetteh Ayite-Atiapa"
-      ],
-      "NEB-SF": [
-        "Christopher Tetteh Morton",
-        "Yussif Braimah Iddi"
-      ],
-      "NEB-TF": [
-        "Derrick Yeboah Duah",
-        "Francis Okyere Darko Mensah"
-      ],
-      "NEB-FF1": [
-        "Terrance Tenkorang"
-      ],
-      "RMA": [
-        "Augustine Gyening"
-      ],
-      "N2": [
-        "Divine Adjabeng"
-      ],
-      "A110": [
-        "Julius Abbey"
-      ],
-      "ECR": [
-        "Derrick Cudjoe"
-      ],
-      "NAF1": [
-        "Nii Otoo Lartey",
-        "Barnabas Banahene-Owusu"
-      ],
-      "NEB-FF2": [
-        "Abubakar Muniru"
-      ],
-      "LT": [
-        "Christie Nyarko"
-      ],
-      "VSLA": [
-        "David Nkansah Mensah",
-        "Debora Sarpomaa Boateng"
-      ],
-      "N1": [
-        "Evans Tignanlene Nkumicha"
-      ],
-      "RMB": [
-        "Isaac Ayensu"
-      ]
-    },
-    "Session, 4 (1:30 PM - 2:30 PM)": {
-      "206": [
-        "Lucian Nsiah Sarkodie"
-      ],
-      "303": [
-        "Ebenezer Paa Effisah"
-      ],
-      "304": [
-        "Wafawu Mashud"
-      ],
-      "NEB-SF": [
-        "Erica Abankwah",
-        "Dickson Avonor"
-      ],
-      "NEB-TF": [
-        "Doreen Asamoah",
-        "Sandra Osei"
-      ],
-      "NEB-FF1": [
-        "Deborah Osei Kyei"
-      ],
-      "NEB-FF2": [
-        "Deborah Yaa Brew"
-      ],
-      "NAF1": [
-        "Eileen Esi Doe",
-        "Rukaiya Saeed"
-      ],
-      "EA": [
-        "Achala Elijah"
-      ],
-      "A110": [
-        "Nimatu Husein"
-      ],
-      "VCR": [
-        "James Eric Ossom"
-      ],
-      "ECR": [
-        "Benjamin Kwadwo Marfo"
-      ],
-      "RMA": [
-        "Desmond Tenakwah"
-      ],
-      "RMB": [
-        "Edward Ekow Forson"
-      ],
-      "PB201": [
-        "Emmanuel Nkrumah"
-      ],
-      "PB208": [
-        "Adasi Vida Birago"
-      ],
-      "PB212": [
-        "Felicity Naa Oboshie Torgbor"
-      ],
-      "PB001": [
-        "Osei Kingsley Bonsu"
-      ],
-      "PB014": [
-        "Ankrah Lynn Akorfa"
-      ],
-      "PB020": [
-        "Akuetteh Regimanuel Korley"
-      ],
-      "N2": [
-        "Anafi Samuel"
-      ],
-      "VSLA": [
-        "Juliet Osei Bonsu",
-        "Nathaniel Agbugblah"
-      ],
-      "LT": [
-        "Bernard Essel"
-      ],
-      "N1": [
-        "Elliot Amponsah"
-      ],
-      "PB214": [
-        "Biney Owusu"
-      ],
-      "PB008": [
-        "Kingsley Owusu Agyekum"
-      ]
-    },
-    "Session, 5 (3:15 PM - 4:15 PM)": {
-      "206": [
-        "Davida Oforiwaa Adu Gyamfi"
-      ],
-      "303": [
-        "Samuel Agbenu"
-      ],
-      "304": [
-        "Nana Andoh Michael"
-      ],
-      "ECR": [
-        "Kwasi Kyei Sarpong"
-      ],
-      "VCR": [
-        "Poku Antwi Kwadwo"
-      ],
-      "A110": [
-        "Ashanti Atta Al-Hafid"
-      ],
-      "RMA": [
-        "Kumah David Jnr"
-      ],
-      "RMB": [
-        "Lilian Amankwa"
-      ],
-      "N1": [
-        "Mansur Abubakar"
-      ],
-      "NEB-TF": [
-        "Prince Asare Ange Seraphin",
-        "Archer Michaelina Adu"
-      ],
-      "NEB-FF2": [
-        "Prince Nyame"
-      ],
-      "PB001": [
-        "Effa Emmanuel"
-      ],
-      "PB020": [
-        "Alex Ohemeng Adusei"
-      ],
-      "PB014": [
-        "Oliver Kobby Biney"
-      ],
-      "PB201": [
-        "George Wiafe"
-      ],
-      "PB214": [
-        "Christian Kofi Essandoh"
-      ],
-      "PB008": [
-        "Billaly Abdul Hayu"
-      ],
-      "PB212": [
-        "Kadzi Daniel"
-      ],
-      "NAF1": [
-        "Abdulai Fatimah",
         "Ohene Kwame Oduro"
       ],
       "EA": [
         "Emmanuel Boadi"
       ],
-      "PB208": [
+      "VCR": [
         "Samuel Cudjoe"
       ],
-      "VSLA": [
-        "Koomson, Florence Easton",
+      "ECR": [
+        "Koomson Florence Easton"
+      ]
+    },
+    "Session, 3 (11:45 AM - 12:45 PM)": {
+      "206": [
         "Adu, Maxwell Kofi Jr"
       ],
-      "LT": [
-        "Oduro, Kwame Ohene"
+      "303": [
+        "Oduro Kwame Ohene"
       ],
-      "N2": [
+      "304": [
         "Benard Kojo Aidoo"
       ],
-      "NEB-SF": [
-        "Nesco Nanzie Benjamin",
+      "PB001": [
+        "Nesco Nanzie Benjamin"
+      ],
+      "PB014": [
         "Lucas Biiyiin"
       ],
-      "NEB-FF1": [
+      "PB214": [
         "Alexander Frimpong"
+      ],
+      "PB208": [
+        "Gideon Kuffour Agyekum"
+      ],
+      "PB212": [
+        "Edmond Khan"
+      ],
+      "PB020": [
+        "Darkwah Kingsley Awuah"
+      ],
+      "PB201": [
+        "Papa Tawiah"
+      ],
+      "PB008": [
+        "Sebi Kofi Benjamin"
+      ],
+      "NEB-SF": [
+        "Erica Gado",
+        "Richmond Donkor"
+      ],
+      "NEB-TF": [
+        "Lawrence Cudjoe",
+        "Bernard Eshun"
+      ],
+      "NEB-FF1": [
+        "Catherine Arkor Tettey"
+      ],
+      "RMA": [
+        "Manuel Akuamaoh Boateng"
+      ],
+      "N2": [
+        "Emmanuel Akuetteh Ayite-Atiapa"
+      ],
+      "A110": [
+        "Christopher Tetteh Morton"
+      ],
+      "ECR": [
+        "Yussif Braimah Iddi"
+      ],
+      "NAF1": [
+        "Derrick Yeboah Duah",
+        "Francis Okyere Darko Mensah"
+      ],
+      "NEB-FF2": [
+        "Terrance Tenkorang"
+      ],
+      "LT": [
+        "Augustine Gyening"
+      ],
+      "VSLA": [
+        "Divine Adjabeng",
+        "Julius Abbey"
+      ],
+      "N1": [
+        "Derrick Cudjoe"
+      ],
+      "RMB": [
+        "Nii Otoo Lartey"
+      ]
+    },
+    "Session, 4 (1:30 PM - 2:30 PM)": {
+      "206": [
+        "Barnabas Banahene-Owusu"
+      ],
+      "303": [
+        "Abubakar Muniru"
+      ],
+      "304": [
+        "Christie Nyarko"
+      ],
+      "NEB-SF": [
+        "David Nkansah Mensah",
+        "Debora Sarpomaa Boateng"
+      ],
+      "NEB-TF": [
+        "Evans Tignanlene Nkumicha",
+        "Isaac Ayensu"
+      ],
+      "NEB-FF1": [
+        "Lucian Nsiah Sarkodie"
+      ],
+      "NEB-FF2": [
+        "Ebenezer Paa Effisah"
+      ],
+      "NAF1": [
+        "Wafawu Mashud",
+        "Erica Abankwah"
+      ],
+      "EA": [
+        "Dickson Avonor"
+      ],
+      "A110": [
+        "Doreen Asamoah"
+      ],
+      "VCR": [
+        "Sandra Osei"
+      ],
+      "ECR": [
+        "Deborah Osei Kyei"
+      ],
+      "RMA": [
+        "Deborah Yaa Brew"
+      ],
+      "RMB": [
+        "Eileen Esi Doe"
+      ],
+      "PB201": [
+        "Rukaiya Saeed"
+      ],
+      "PB208": [
+        "Achala Elijah"
+      ],
+      "PB212": [
+        "Nimatu Husein"
+      ],
+      "PB001": [
+        "James Eric Ossom"
+      ],
+      "PB014": [
+        "Benjamin Kwadwo Marfo"
+      ],
+      "PB020": [
+        "Desmond Tenakwah"
+      ],
+      "N2": [
+        "Edward Ekow Forson"
+      ],
+      "VSLA": [
+        "Emmanuel Nkrumah",
+        "Adasi Vida Birago"
+      ],
+      "LT": [
+        "Felicity Naa Oboshie Torgbor"
+      ],
+      "N1": [
+        "Osei Kingsley Bonsu"
+      ],
+      "PB214": [
+        "Ankrah Lynn Akorfa"
+      ],
+      "PB008": [
+        "Akuetteh Regimanuel Korley"
+      ]
+    },
+    "Session, 5 (3:15 PM - 4:15 PM)": {
+      "206": [
+        "Anafi Samuel"
+      ],
+      "303": [
+        "Juliet Osei Bonsu"
+      ],
+      "304": [
+        "Nathaniel Agbugblah"
+      ],
+      "ECR": [
+        "Bernard Essel"
+      ],
+      "VCR": [
+        "Elliot Amponsah"
+      ],
+      "A110": [
+        "Biney Owusu"
+      ],
+      "RMA": [
+        "Kingsley Owusu Agyekum"
+      ],
+      "RMB": [
+        "Davida Oforiwaa Adu Gyamfi"
+      ],
+      "N1": [
+        "Samuel Agbenu"
+      ],
+      "NEB-TF": [
+        "Nana Andoh Michael",
+        "Kwasi Kyei Sarpong"
+      ],
+      "NEB-FF2": [
+        "Poku Antwi Kwadwo"
+      ],
+      "PB001": [
+        "Ashanti Atta Al-Hafid"
+      ],
+      "PB020": [
+        "Kumah David Jnr"
+      ],
+      "PB014": [
+        "Lilian Amankwa"
+      ],
+      "PB201": [
+        "Mansur Abubakar"
+      ],
+      "PB214": [
+        "Prince Asare Ange Seraphin"
+      ],
+      "PB008": [
+        "Archer Michaelina Adu"
+      ],
+      "PB212": [
+        "Prince Nyame"
+      ],
+      "NAF1": [
+        "Effa Emmanuel",
+        "Alex Ohemeng Adusei"
+      ],
+      "EA": [
+        "Oliver Kobby Biney"
+      ],
+      "PB208": [
+        "George Wiafe"
+      ],
+      "VSLA": [
+        "Christian Kofi Essandoh",
+        "Billaly Abdul Hayu"
+      ],
+      "LT": [
+        "Kadzi Daniel"
+      ],
+      "N2": [
+        "Abdulai Fatimah"
+      ],
+      "NEB-SF": [
+        "Ohene Kwame Oduro",
+        "Emmanuel Boadi"
+      ],
+      "NEB-FF1": [
+        "Samuel Cudjoe"
       ]
     },
     "Session, 6 (5:00 PM - 6:00 PM)": {
       "206": [
-        "Gideon Kuffour Agyekum"
+        "Koomson Florence Easton"
       ],
       "303": [
-        "Edmond Khan"
+        "Adu, Maxwell Kofi Jr"
       ],
       "304": [
-        "Darkwah Kingsley Awuah"
+        "Oduro Kwame Ohene"
       ],
       "NEB-SF": [
-        "Papa Tawiah",
-        "Erica Gado"
+        "Benard Kojo Aidoo",
+        "Nesco Nanzie Benjamin"
       ],
       "NEB-TF": [
-        "Richmond Donkor",
-        "Lawrence Cudjoe"
+        "Lucas Biiyiin",
+        "Alexander Frimpong"
       ],
       "NEB-FF1": [
-        "Bernard Eshun"
+        "Gideon Kuffour Agyekum"
       ],
       "NEB-FF2": [
-        "Catherine Arkor Tettey"
+        "Edmond Khan"
       ],
       "VSLA": [
-        "Manuel Akuamaoh Boateng",
-        "Emmanuel Akuetteh Ayite-Atiapa"
+        "Darkwah Kingsley Awuah",
+        "Papa Tawiah"
       ],
       "LT": [
-        "Christopher Tetteh Morton"
+        "Sebi Kofi Benjamin"
       ],
       "N1": [
-        "Yussif Braimah Iddi"
+        "Erica Gado"
       ],
       "RMA": [
-        "Derrick Yeboah Duah"
+        "Richmond Donkor"
       ],
       "RMB": [
-        "Francis Okyere Darko Mensah"
+        "Lawrence Cudjoe"
       ],
       "NAF1": [
-        "Terrance Tenkorang",
-        "Augustine Gyening"
+        "Bernard Eshun",
+        "Catherine Arkor Tettey"
       ],
       "EA": [
-        "Divine Adjabeng"
+        "Manuel Akuamaoh Boateng"
       ],
       "A110": [
-        "Julius Abbey"
+        "Emmanuel Akuetteh Ayite-Atiapa"
       ],
       "VCR": [
-        "Derrick Cudjoe"
+        "Christopher Tetteh Morton"
       ],
       "PB001": [
-        "Nii Otoo Lartey"
+        "Yussif Braimah Iddi"
       ],
       "PB020": [
-        "Barnabas Banahene-Owusu"
+        "Derrick Yeboah Duah"
       ],
       "PB014": [
-        "Abubakar Muniru"
+        "Francis Okyere Darko Mensah"
       ],
       "PB201": [
-        "Christie Nyarko"
+        "Terrance Tenkorang"
       ],
       "PB214": [
-        "David Nkansah Mensah"
+        "Augustine Gyening"
       ],
       "PB208": [
-        "Debora Sarpomaa Boateng"
+        "Divine Adjabeng"
       ],
       "PB212": [
-        "Evans Tignanlene Nkumicha"
+        "Julius Abbey"
       ],
       "ECR": [
-        "Isaac Ayensu"
+        "Derrick Cudjoe"
       ]
     }
   }
