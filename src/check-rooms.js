@@ -62,7 +62,7 @@ async function checkAllocationSchedule(timetableOutput) {
 // Absolute path to Excel file
 const excelPath = path.join(
   __dirname,
-  "./outputs/MIDSEM TIMETABLE 25_26-cleaned.xlsx"
+  "./outputs/Examtt2k25_26_FS-cleaned.xlsx"
 );
 
 // Run checks

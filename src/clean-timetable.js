@@ -1,7 +1,6 @@
 // Cleaning the excel functions
 
 import Excel from 'exceljs'
-import fs from 'node:fs'
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -136,12 +135,12 @@ async function start(allPapers, destPath) {
 
 const filename = path.join(
   __dirname,
-  "./timetables/MIDSEM TIMETABLE 25_26.xlsx"
+  "./timetables/Examtt2k25_26_FS.xlsx"
 );
 
 const output = path.join(
   __dirname,
-  "./outputs/MIDSEM TIMETABLE 25_26-cleaned.xlsx"
+  "./outputs/Examtt2k25_26_FS-cleaned.xlsx"
 );
 
 
