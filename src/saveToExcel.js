@@ -12,9 +12,9 @@ const outputsDir = path.join(__dirname, "outputs");
 
 if (!fs.existsSync(outputsDir)) fs.mkdirSync(outputsDir, { recursive: true });
 
-const schedulePath = path.join(outputsDir, "ta_schedule.json");
-const summaryPath = path.join(outputsDir, "ta_summary.json");
-const excelPath = path.join(outputsDir, "ta_schedule-final.xlsx");
+const schedulePath = path.join(outputsDir, "fs-ta_schedule.json");
+const summaryPath = path.join(outputsDir, "fs-ta_summary.json");
+const excelPath = path.join(outputsDir, "fs-ta_schedule-final.xlsx");
 
 // ------------------------
 // Load JSON outputs
