@@ -10,11 +10,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const examsSchedule = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "./outputs/rooms.json"), "utf-8"),
+  fs.readFileSync(path.join(__dirname, "./outputs/end-rooms.json"), "utf-8"),
 );
 
 const TAs = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "./outputs/tas_list.json"), "utf-8"),
+  fs.readFileSync(path.join(__dirname, "./outputs/end_sem_TAs.json"), "utf-8"),
 );
 
 // ------------------------
@@ -179,13 +179,13 @@ const result = scheduler.scheduleAll(examsSchedule);
 
 // Save schedule
 fs.writeFileSync(
-  path.join(__dirname, "./outputs/ta_schedule.json"),
+  path.join(__dirname, "./outputs/fs-ta_schedule.json"),
   JSON.stringify(result, null, 2),
 );
 
 // Save summary
 fs.writeFileSync(
-  path.join(__dirname, "./outputs/ta_summary.json"),
+  path.join(__dirname, "./outputs/fs-ta_summary.json"),
   JSON.stringify(scheduler.getSessionSummary(), null, 2),
 );
 
