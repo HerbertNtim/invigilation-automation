@@ -40,11 +40,15 @@
     "totalSessions": 8
   },
   {
-    "ta": "Nimatu Fuseini",
+    "ta": "Nimatu Husseini",
     "totalSessions": 8
   },
   {
     "ta": "Amos Amoako Addo",
+    "totalSessions": 8
+  },
+  {
+    "ta": "Terrance Tenkorang",
     "totalSessions": 8
   },
   {
@@ -128,7 +132,15 @@
     "totalSessions": 8
   },
   {
+    "ta": "Rukaya Saed",
+    "totalSessions": 8
+  },
+  {
     "ta": "Alfred Ackon",
+    "totalSessions": 8
+  },
+  {
+    "ta": "Nana Adu",
     "totalSessions": 8
   },
   {
@@ -209,15 +221,15 @@
   },
   {
     "ta": "Emmanuel Boadi",
-    "totalSessions": 8
+    "totalSessions": 7
   },
   {
     "ta": "Samuel Cudjoe",
-    "totalSessions": 8
+    "totalSessions": 7
   },
   {
     "ta": "Deborah Brew",
-    "totalSessions": 8
+    "totalSessions": 7
   },
   {
     "ta": "Deborah Osei Kyei",
@@ -280,11 +292,11 @@
     "totalSessions": 7
   },
   {
-    "ta": "Ato Anamoah Essel",
+    "ta": "Agbenu Samuel",
     "totalSessions": 7
   },
   {
-    "ta": "Terrance Tenkorang",
+    "ta": "Ato Anamoah Essel",
     "totalSessions": 7
   },
   {
@@ -396,10 +408,6 @@
     "totalSessions": 7
   },
   {
-    "ta": "Agbenu Samuel",
-    "totalSessions": 7
-  },
-  {
     "ta": "Lilian Amankwaa",
     "totalSessions": 7
   },
@@ -436,15 +444,7 @@
     "totalSessions": 7
   },
   {
-    "ta": "Nana Adu",
-    "totalSessions": 7
-  },
-  {
     "ta": "Wafawu Mashud",
-    "totalSessions": 7
-  },
-  {
-    "ta": "Rukaya Saed",
     "totalSessions": 7
   }
 ]
