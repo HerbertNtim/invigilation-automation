@@ -43,21 +43,32 @@ class ScheduleTAs {
     this.taHistory = {};
     this.schedule = {};
 
+    // TA-specific rules
+    this.taRules = {
+      "Sandra Osei": {
+        exclude: [
+          "Session, 1 (8:15 AM - 9:15 AM)",
+          "Session, 6 (5:00 PM - 6:00 PM)",
+        ],
+      },
+
+      "Doe Eileen Esi": {
+        only: [
+          "Session, 1 (8:15 AM - 9:15 AM)",
+          "Session, 6 (5:00 PM - 6:00 PM)",
+        ],
+      },
+    };
+
+    // Track sessions per TA
+    this.sessionCounts = {};
+    this.taHistory = {};
+    this.schedule = {};
+
     tas.forEach((ta) => {
       this.sessionCounts[ta] = 0;
       this.taHistory[ta] = {};
     });
-
-    // TA-specific rules
-    this.taRules = {
-      "Sandra Osei": {
-        exclude: ["Session, 1 (8:15 AM - 9:15 AM)", "Session, 6 (5:00 PM - 6:00 PM)"],
-      },
-
-      "Doe Eileen Esi": {
-        only: ["First", "Last"],
-      },
-    };
   }
 
   // ------------------------
@@ -111,10 +122,34 @@ class ScheduleTAs {
     return !(history.at(-1) && history.at(-2));
   }
 
+  canTakeSession(ta, session) {
+    const rule = this.taRules[ta];
+
+    // No special rules
+    if (!rule) return true;
+
+    // Restrict to only these sessions
+    if (rule.only) {
+      return rule.only.includes(session);
+    }
+
+    // Exclude these sessions
+    if (rule.exclude) {
+      return !rule.exclude.includes(session);
+    }
+
+    return true;
+  }
+
   // Sort TAs by fairness
-  getEligibleTAs(day) {
+  getEligibleTAs(day, session, assigned) {
     return Object.keys(this.sessionCounts)
-      .filter((ta) => this.canWork(ta, day))
+      .filter(
+        (ta) =>
+          !assigned.has(ta) &&
+          this.canWork(ta, day) &&
+          this.canTakeSession(ta, session),
+      )
       .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
   }
 
@@ -130,23 +165,32 @@ class ScheduleTAs {
         const rooms = Object.keys(scheduleData[day][session]);
         const slots = this.buildSlots(rooms);
 
-        let eligible = this.getEligibleTAs(day);
-
-        // fallback if constraints too strict
-        if (eligible.length < slots.length) {
-          console.warn("Relaxing rule:", day, session);
-
-          eligible = Object.keys(this.sessionCounts).sort(
-            (a, b) => this.sessionCounts[a] - this.sessionCounts[b],
-          );
-        }
-
         const assigned = new Set();
+
         this.schedule[day][session] = {};
 
-        // assign slots greedily
-        slots.forEach((slot, i) => {
-          const ta = eligible[i % eligible.length];
+        for (const slot of slots) {
+          let eligible = this.getEligibleTAs(day, session, assigned);
+
+          // Relax only consecutive rule if needed
+          if (eligible.length === 0) {
+            console.warn(`Relaxing consecutive rule: ${day} ${session}`);
+
+            eligible = Object.keys(this.sessionCounts)
+              .filter(
+                (ta) => !assigned.has(ta) && this.canTakeSession(ta, session),
+              )
+              .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
+          }
+
+          // Last fallback
+          if (eligible.length === 0) {
+            eligible = Object.keys(this.sessionCounts)
+              .filter((ta) => !assigned.has(ta))
+              .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
+          }
+
+          const ta = eligible[0];
 
           if (!this.schedule[day][session][slot.room]) {
             this.schedule[day][session][slot.room] = [];
@@ -156,7 +200,7 @@ class ScheduleTAs {
 
           this.sessionCounts[ta]++;
           assigned.add(ta);
-        });
+        }
 
         // update TA daily history
         Object.keys(this.taHistory).forEach((ta) => {
