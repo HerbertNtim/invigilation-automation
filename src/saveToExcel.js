@@ -10,11 +10,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const outputsDir = path.join(__dirname, "outputs");
 
-if (!fs.existsSync(outputsDir)) fs.mkdirSync(outputsDir, { recursive: true });
+if (!fs.existsSync(outputsDir)) {
+  fs.mkdirSync(outputsDir, { recursive: true });
+}
 
 const schedulePath = path.join(outputsDir, "ss-mid-sem-ta_schedule.json");
 const summaryPath = path.join(outputsDir, "ss-mid-sem-ta_summary.json");
-const excelPath = path.join(outputsDir, "ss-mid-sem-ta_schedule-final.xlsx");
+const excelPath = path.join(outputsDir, "ss-mid-sem-ta_schedule-final2.xlsx");
 
 // ------------------------
 // Load JSON outputs
@@ -31,65 +33,110 @@ const roomOrder = [
   "PB214", "VCR", "ECR", "A110", "EA", "NAF1", "NEB-GF", "NEB-FF1",
   "NEB-FF2", "NEB-SF", "NEB-TF"
 ];
-const roomIndex = Object.fromEntries(roomOrder.map((room, i) => [room, i]));
 
-// ------------------------
-// Prepare data for Excel
-// ------------------------
-const scheduleRows = [];
-
-for (const day of Object.keys(taSchedule)) {
-  for (const session of Object.keys(taSchedule[day])) {
-    const sessionRows = [];
-
-    for (const room of Object.keys(taSchedule[day][session])) {
-      sessionRows.push({
-        date: day,
-        session,
-        room,
-        teachingAssistant: taSchedule[day][session][room].join(" / "),
-      });
-    }
-
-    // Sort rooms according to roomOrder
-    sessionRows.sort((a, b) => (roomIndex[a.room] ?? 999) - (roomIndex[b.room] ?? 999));
-
-    // Add sorted session rows to main list
-    scheduleRows.push(...sessionRows);
-
-    // Add empty row between sessions
-    scheduleRows.push({});
-  }
-}
-
-// Sessions summary
-const summaryRows = taSummary.map(item => ({
-  name: item.ta,
-  totalSessions: item.totalSessions,
-}));
+const roomIndex = Object.fromEntries(
+  roomOrder.map((room, i) => [room, i])
+);
 
 // ------------------------
 // Create Excel workbook
 // ------------------------
 const wb = new ExcelJS.Workbook();
 
+// ------------------------
 // Sheet 1: TA Schedule
+// ------------------------
 const sheet1 = wb.addWorksheet("TA Schedule");
-sheet1.columns = [
-  { header: "Date", key: "date", width: 20 },
-  { header: "Session", key: "session", width: 20 },
-  { header: "Room", key: "room", width: 15 },
-  { header: "Teaching Assistant(s)", key: "teachingAssistant", width: 40 },
-];
-sheet1.addRows(scheduleRows);
 
+sheet1.columns = [
+  { header: "Room", key: "room", width: 20 },
+  { header: "Teaching Assistant(s)", key: "teachingAssistant", width: 45 },
+];
+
+for (const day of Object.keys(taSchedule)) {
+
+  for (const session of Object.keys(taSchedule[day])) {
+
+    // ------------------------
+    // Date row (merged)
+    // ------------------------
+    const dateRow = sheet1.addRow([day, ""]);
+    sheet1.mergeCells(`A${dateRow.number}:B${dateRow.number}`);
+
+    dateRow.font = {
+      bold: true,
+      size: 14,
+    };
+
+    // ------------------------
+    // Session row (merged)
+    // ------------------------
+    const sessionRow = sheet1.addRow([session, ""]);
+    sheet1.mergeCells(`A${sessionRow.number}:B${sessionRow.number}`);
+
+    sessionRow.font = {
+      bold: true,
+      size: 12,
+    };
+
+    // ------------------------
+    // Table header
+    // ------------------------
+    const headerRow = sheet1.addRow([
+      "Room",
+      "Teaching Assistant(s)",
+    ]);
+
+    headerRow.font = {
+      bold: true,
+    };
+
+    // ------------------------
+    // Room rows
+    // ------------------------
+    const sessionRows = [];
+
+    for (const room of Object.keys(taSchedule[day][session])) {
+      sessionRows.push({
+        room,
+        teachingAssistant:
+          taSchedule[day][session][room].join(" / "),
+      });
+    }
+
+    // Sort rooms
+    sessionRows.sort(
+      (a, b) =>
+        (roomIndex[a.room] ?? 999) -
+        (roomIndex[b.room] ?? 999)
+    );
+
+    // Add rows
+    sessionRows.forEach((row) => {
+      sheet1.addRow(row);
+    });
+
+    // spacing
+    sheet1.addRow([]);
+  }
+}
+
+// ------------------------
 // Sheet 2: Sessions Count
+// ------------------------
 const sheet2 = wb.addWorksheet("Sessions Count");
+
 sheet2.columns = [
   { header: "Teaching Assistant", key: "name", width: 40 },
   { header: "Total Sessions", key: "totalSessions", width: 15 },
 ];
-sheet2.addRows(summaryRows);
+
+sheet2.addRows(
+  taSummary.map((item) => ({
+    name: item.ta,
+    totalSessions: item.totalSessions,
+  }))
+);
 
 // ------------------------
 // Write Excel file
@@ -97,4 +144,6 @@ sheet2.addRows(summaryRows);
 wb.xlsx
   .writeFile(excelPath)
   .then(() => console.log(`[+] Excel saved at ${excelPath}`))
-  .catch(err => console.error("[-] Error writing Excel file:\n", err));
+  .catch((err) =>
+    console.error("[-] Error writing Excel file:\n", err)
+  );
