@@ -1,6 +1,6 @@
 // Cleaning the excel functions
 
-import Excel from 'exceljs'
+import Excel from "exceljs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -9,21 +9,21 @@ const __dirname = path.dirname(__filename);
 
 function isValidMonth(str) {
   const months = [
-    'january',
-    'february',
-    'march',
-    'april',
-    'may',
-    'june',
-    'july',
-    'august',
-    'september',
-    'october',
-    'november',
-    'december'
-  ]
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october",
+    "november",
+    "december",
+  ];
 
-  if(months.includes(str.toLowerCase())) {
+  if (months.includes(str.toLowerCase())) {
     return true;
   }
   return false;
@@ -34,7 +34,7 @@ async function readTimetableFile(filename) {
   try {
     await workbook.xlsx.readFile(filename);
   } catch (error) {
-    console.log(error)
+    console.log(error);
     throw new Error(error);
   }
 
@@ -52,7 +52,10 @@ async function saveWorkbookToXlsxFile(workbook, saveFileName) {
 async function cleanTimetable(srcPath, sheetName, rowCount, colCount) {
   const workbook = await readTimetableFile(srcPath);
 
-  console.log("Available Sheets:", workbook.worksheets.map(ws => ws.name));
+  console.log(
+    "Available Sheets:",
+    workbook.worksheets.map((ws) => ws.name),
+  );
 
   const worksheet = workbook.getWorksheet(sheetName);
 
@@ -75,17 +78,24 @@ async function cleanTimetable(srcPath, sheetName, rowCount, colCount) {
       if (cell.value === null || cell.value === undefined) {
         break;
       } else if (
-        typeof cell.value === "string" && cell.value.toString().split(" ").length === 4 &&
+        typeof cell.value === "string" &&
+        cell.value.toString().split(" ").length === 4 &&
         isValidMonth(cell.value.toString().split(" ")[2])
       ) {
         currentDate = cell.value.toString();
         lastDate = currentDate;
         break;
-      } else if (typeof cell.value === "string" && cell.value.toString().toLowerCase().includes("session")) {
+      } else if (
+        typeof cell.value === "string" &&
+        cell.value.toString().toLowerCase().includes("session")
+      ) {
         currentSession = cell.value.toString();
         lastSession = currentSession;
         break;
-      } else if (typeof cell.value === "string" && cell.value.toString().trim().toLowerCase() === "code") {
+      } else if (
+        typeof cell.value === "string" &&
+        cell.value.toString().trim().toLowerCase() === "code"
+      ) {
         break;
       } else {
         if (cellNum === 7) {
@@ -96,14 +106,18 @@ async function cleanTimetable(srcPath, sheetName, rowCount, colCount) {
     }
     if (rowAsArray.length > 0) {
       let allocation = 0;
-      if (rowAsArray[5] && rowAsArray[5].toString().toLowerCase() === "computer based") {
+      if (
+        rowAsArray[5] &&
+        rowAsArray[5].toString().toLowerCase() === "computer based"
+      ) {
         allocation = rowAsArray[4];
       } else if (
-        rowAsArray[5] && rowAsArray[5].toString() !== undefined &&
+        rowAsArray[5] &&
+        rowAsArray[5].toString() !== undefined &&
         rowAsArray[rowAsArray.length - 1] === undefined
       ) {
         allocation = rowAsArray[4];
-        console.log('rowAsArray', rowAsArray);
+        console.log("rowAsArray", rowAsArray);
       } else {
         allocation = rowAsArray[rowAsArray.length - 1];
       }
@@ -133,16 +147,9 @@ async function start(allPapers, destPath) {
   saveWorkbookToXlsxFile(newWorkbook, destPath);
 }
 
-const filename = path.join(
-  __dirname,
-  "./timetables/Examtt2k25_26_FS.xlsx"
-);
+const filename = path.join(__dirname, "./timetables/2ND SEM MIDSEM TTFINAL.xlsx");
 
-const output = path.join(
-  __dirname,
-  "./outputs/Examtt2k25_26_FS-cleaned.xlsx"
-);
-
+const output = path.join(__dirname, "./outputs/2ND SEM MIDSEM TTFINAL-cleaned.xlsx");
 
 cleanTimetable(filename, "Sheet1", 1010, 8)
   .then((allPapers) => {
