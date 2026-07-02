@@ -10,11 +10,17 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const examsSchedule = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "./outputs/end-rooms.json"), "utf-8"),
+  fs.readFileSync(
+    path.join(__dirname, "./outputs/ss-mid-sem-rooms.json"),
+    "utf-8",
+  ),
 );
 
 const TAs = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "./outputs/end_sem_TAs.json"), "utf-8"),
+  fs.readFileSync(
+    path.join(__dirname, "./outputs/ss-mid-sem-TAs.json"),
+    "utf-8",
+  ),
 );
 
 // ------------------------
@@ -41,6 +47,17 @@ class ScheduleTAs {
       this.sessionCounts[ta] = 0;
       this.taHistory[ta] = {};
     });
+
+    // TA-specific rules
+    this.taRules = {
+      "Sandra Osei": {
+        exclude: ["Session, 1 (8:15 AM - 9:15 AM)", "Session, 6 (5:00 PM - 6:00 PM)"],
+      },
+
+      "Doe Eileen Esi": {
+        only: ["First", "Last"],
+      },
+    };
   }
 
   // ------------------------
@@ -59,6 +76,8 @@ class ScheduleTAs {
     }
 
     console.log("Total TA slots:", total);
+    console.log("Total TAs: ", TAs.length);
+    console.log("Average sessions per TA: ", (total / TAs.length).toFixed(2));
     return total;
   }
 
@@ -179,13 +198,13 @@ const result = scheduler.scheduleAll(examsSchedule);
 
 // Save schedule
 fs.writeFileSync(
-  path.join(__dirname, "./outputs/fs-ta_schedule.json"),
+  path.join(__dirname, "./outputs/ss-mid-sem-ta_schedule.json"),
   JSON.stringify(result, null, 2),
 );
 
 // Save summary
 fs.writeFileSync(
-  path.join(__dirname, "./outputs/fs-ta_summary.json"),
+  path.join(__dirname, "./outputs/ss-mid-sem-ta_summary.json"),
   JSON.stringify(scheduler.getSessionSummary(), null, 2),
 );
 

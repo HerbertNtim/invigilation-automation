@@ -1,66 +1,255 @@
-function printBoard(board) {
-  for (const row of board) {
-    console.log(JSON.stringify(row));
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+// ------------------------
+// File setup
+// ------------------------
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const examsSchedule = JSON.parse(
+  fs.readFileSync(
+    path.join(__dirname, "./outputs/ss-mid-sem-rooms.json"),
+    "utf-8",
+  ),
+);
+
+const TAs = JSON.parse(
+  fs.readFileSync(
+    path.join(__dirname, "./outputs/ss-mid-sem-TAs.json"),
+    "utf-8",
+  ),
+);
+
+// ------------------------
+// Scheduler Class
+// ------------------------
+
+class ScheduleTAs {
+  constructor(tas) {
+    // Room capacity map (default = 1 TA)
+    this.roomCapacity = {
+      NAF1: 2,
+      VSLA: 2,
+      "NEB-TF": 2,
+      "NEB-SF": 2,
+      NEB: 1, // fixed
+    };
+
+    // Track sessions per TA
+    this.sessionCounts = {};
+    this.taHistory = {};
+    this.schedule = {};
+
+    // TA-specific rules
+    this.taRules = {
+      "Sandra Osei": {
+        exclude: [
+          "Session, 1 (8:15 AM - 9:15 AM)",
+          "Session, 6 (5:00 PM - 6:00 PM)",
+        ],
+      },
+
+      "Doe Eileen Esi": {
+        only: [
+          "Session, 1 (8:15 AM - 9:15 AM)",
+          "Session, 6 (5:00 PM - 6:00 PM)",
+        ],
+      },
+    };
+
+    // Track sessions per TA
+    this.sessionCounts = {};
+    this.taHistory = {};
+    this.schedule = {};
+
+    tas.forEach((ta) => {
+      this.sessionCounts[ta] = 0;
+      this.taHistory[ta] = {};
+    });
   }
-}
 
-function nQueens(n) {
-  const board = Array.from({ length: n }).map(() => {
-    return Array.from({ length: n }).fill(0);
-  });
+  // ------------------------
+  // Stats
+  // ------------------------
 
-  console.log("Empty Board");
-  printBoard(board);
+  getTotalSessions(schedule) {
+    let total = 0;
 
-  const canPlaceQueen = (board, row, column) => {
-    // Check if Queen exists in the same row to the left of current
-    // The left of current column
-    for (let i = 0; i < column; i++) {
-      if (board[row][i]) {
-        return false;
+    for (const day of Object.keys(schedule)) {
+      for (const session of Object.keys(schedule[day])) {
+        for (const room of Object.keys(schedule[day][session])) {
+          total += this.roomCapacity[room] || 1;
+        }
       }
     }
 
-    // Check if Queen exists in the diagonal to the top left
-    for (let i = row, j = column; i >= 0 && j >= 0; i--, j--) {
-      if (board[i][j]) {
-        return false;
+    console.log("Total TA slots:", total);
+    console.log("Total TAs: ", TAs.length);
+    console.log("Average sessions per TA: ", (total / TAs.length).toFixed(2));
+    return total;
+  }
+
+  // ------------------------
+  // Slot builder
+  // ------------------------
+
+  buildSlots(rooms) {
+    const slots = [];
+
+    rooms.forEach((room) => {
+      const needed = this.roomCapacity[room] || 1;
+
+      for (let i = 0; i < needed; i++) {
+        slots.push({ room, index: i });
       }
+    });
+
+    return slots;
+  }
+
+  // ------------------------
+  // Constraint: no 3 consecutive
+  // ------------------------
+
+  canWork(ta, day) {
+    const history = this.taHistory[ta][day] || [];
+
+    if (history.length < 2) return true;
+
+    return !(history.at(-1) && history.at(-2));
+  }
+
+  canTakeSession(ta, session) {
+    const rule = this.taRules[ta];
+
+    // No special rules
+    if (!rule) return true;
+
+    // Restrict to only these sessions
+    if (rule.only) {
+      return rule.only.includes(session);
     }
-    // Check if Queen exists in the diagonal to the bottom left
-    for (let i = row, j = column; i < board.length && j >= 0; i++, j++) {
-      if (board[i][j]) {
-        return false;
-      }
+
+    // Exclude these sessions
+    if (rule.exclude) {
+      return !rule.exclude.includes(session);
     }
 
     return true;
-  };
+  }
 
-  const placeQueen = (board, column) => {
-    if (column >= board.length) {
-      return true;
-    }
-    for (let i = 0; i < board.length; i++) {
-      if (canPlaceQueen(board, i, column)) {
-        board[i][column] = 1;
-        if (placeQueen(board, column + 1)) {
-          return true;
+  // Sort TAs by fairness
+  getEligibleTAs(day, session, assigned) {
+    return Object.keys(this.sessionCounts)
+      .filter(
+        (ta) =>
+          !assigned.has(ta) &&
+          this.canWork(ta, day) &&
+          this.canTakeSession(ta, session),
+      )
+      .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
+  }
+
+  // ------------------------
+  // Main scheduler
+  // ------------------------
+
+  scheduleAll(scheduleData) {
+    for (const day of Object.keys(scheduleData)) {
+      this.schedule[day] = {};
+
+      for (const session of Object.keys(scheduleData[day])) {
+        const rooms = Object.keys(scheduleData[day][session]);
+        const slots = this.buildSlots(rooms);
+
+        const assigned = new Set();
+
+        this.schedule[day][session] = {};
+
+        for (const slot of slots) {
+          let eligible = this.getEligibleTAs(day, session, assigned);
+
+          // Relax only consecutive rule if needed
+          if (eligible.length === 0) {
+            console.warn(`Relaxing consecutive rule: ${day} ${session}`);
+
+            eligible = Object.keys(this.sessionCounts)
+              .filter(
+                (ta) => !assigned.has(ta) && this.canTakeSession(ta, session),
+              )
+              .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
+          }
+
+          // Last fallback
+          if (eligible.length === 0) {
+            eligible = Object.keys(this.sessionCounts)
+              .filter((ta) => !assigned.has(ta))
+              .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
+          }
+
+          const ta = eligible[0];
+
+          if (!this.schedule[day][session][slot.room]) {
+            this.schedule[day][session][slot.room] = [];
+          }
+
+          this.schedule[day][session][slot.room].push(ta);
+
+          this.sessionCounts[ta]++;
+          assigned.add(ta);
         }
 
-        board[i][column] = 0;
+        // update TA daily history
+        Object.keys(this.taHistory).forEach((ta) => {
+          if (!this.taHistory[ta][day]) {
+            this.taHistory[ta][day] = [];
+          }
+
+          this.taHistory[ta][day].push(assigned.has(ta));
+        });
       }
     }
 
-    return false;
-  };
+    return this.schedule;
+  }
 
-  if (placeQueen(board, 0)) {
-    console.log("Solution");
-    printBoard(board);
-  } else {
-    console.log("No solution exists");
+  // ------------------------
+  // Summary
+  // ------------------------
+
+  getSessionSummary() {
+    return Object.entries(this.sessionCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([ta, total]) => ({
+        ta,
+        totalSessions: total,
+      }));
   }
 }
 
-nQueens(4);
+// ------------------------
+// Run scheduler
+// ------------------------
+
+const scheduler = new ScheduleTAs(TAs);
+
+scheduler.getTotalSessions(examsSchedule);
+
+const result = scheduler.scheduleAll(examsSchedule);
+
+// Save schedule
+fs.writeFileSync(
+  path.join(__dirname, "./outputs/ss-mid-sem-ta_schedule.json"),
+  JSON.stringify(result, null, 2),
+);
+
+// Save summary
+fs.writeFileSync(
+  path.join(__dirname, "./outputs/ss-mid-sem-ta_summary.json"),
+  JSON.stringify(scheduler.getSessionSummary(), null, 2),
+);
+
+console.log("✅ TA scheduling complete!");
