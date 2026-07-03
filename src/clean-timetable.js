@@ -147,9 +147,9 @@ async function start(allPapers, destPath) {
   saveWorkbookToXlsxFile(newWorkbook, destPath);
 }
 
-const filename = path.join(__dirname, "./timetables/2ND SEM MIDSEM TTFINAL.xlsx");
+const filename = path.join(__dirname, "./timetables/2ND SEM TTFINAL_1.xlsx");
 
-const output = path.join(__dirname, "./outputs/2ND SEM MIDSEM TTFINAL-cleaned.xlsx");
+const output = path.join(__dirname, "./outputs/2ND SEM TTFINAL_1-cleaned.xlsx");
 
 cleanTimetable(filename, "Sheet1", 1010, 8)
   .then((allPapers) => {
