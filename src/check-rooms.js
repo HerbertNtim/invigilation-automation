@@ -10,7 +10,7 @@ const ROOMS = [
   "LT","304","PB212","RMA","PB001","PB201","PB214","N2","ECR",
   "PB020","N1","VSLA","PB208","EA","NEB-FF1","RMB","PB012",
   "PB008","A110","NAF1","303","206","PB014","VCR",
-  "NEB-GF","NEB-FF2","NEB-SF","Computer Based","NEB-TF",
+  "NEB-GF","NEB-FF2","NEB-SF","Computer Based","NEB-TF", "BYOD1", "BYOD2", "GIS Lab"
 ];
 
 async function verifyRooms(filename) {
@@ -62,7 +62,7 @@ async function checkAllocationSchedule(timetableOutput) {
 // Absolute path to Excel file
 const excelPath = path.join(
   __dirname,
-  "./outputs/TTFINAL-cleaned.xlsx"
+  "./outputs/End of SS ExamsTT 2026-cleaned.xlsx"
 );
 
 // Run checks
