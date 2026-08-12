@@ -14,9 +14,9 @@ if (!fs.existsSync(outputsDir)) {
   fs.mkdirSync(outputsDir, { recursive: true });
 }
 
-const schedulePath = path.join(outputsDir, "ss-mid-sem-ta_schedule.json");
-const summaryPath = path.join(outputsDir, "ss-mid-sem-ta_summary.json");
-const excelPath = path.join(outputsDir, "ss-mid-sem-ta_schedule-final2.xlsx");
+const schedulePath = path.join(outputsDir, "ss-end-sem-ta_schedule.json");
+const summaryPath = path.join(outputsDir, "ss-end-sem-ta_summary.json");
+const excelPath = path.join(outputsDir, "ss-end-sem-ta_schedule-final.xlsx");
 
 // ------------------------
 // Load JSON outputs
@@ -28,15 +28,36 @@ const taSummary = JSON.parse(fs.readFileSync(summaryPath, "utf-8"));
 // Room order
 // ------------------------
 const roomOrder = [
-  "LT", "RMA", "RMB", "VSLA", "206", "303", "304", "N1", "N2",
-  "PB001", "PB008", "PB014", "PB020", "PB201", "PB208", "PB212",
-  "PB214", "VCR", "ECR", "A110", "EA", "NAF1", "NEB-GF", "NEB-FF1",
-  "NEB-FF2", "NEB-SF", "NEB-TF"
+  "LT",
+  "RMA",
+  "RMB",
+  "VSLA",
+  "206",
+  "303",
+  "304",
+  "N1",
+  "N2",
+  "PB001",
+  "PB008",
+  "PB014",
+  "PB020",
+  "PB201",
+  "PB208",
+  "PB212",
+  "PB214",
+  "VCR",
+  "ECR",
+  "A110",
+  "EA",
+  "NAF1",
+  "NEB-GF",
+  "NEB-FF1",
+  "NEB-FF2",
+  "NEB-SF",
+  "NEB-TF",
 ];
 
-const roomIndex = Object.fromEntries(
-  roomOrder.map((room, i) => [room, i])
-);
+const roomIndex = Object.fromEntries(roomOrder.map((room, i) => [room, i]));
 
 // ------------------------
 // Create Excel workbook
@@ -54,9 +75,7 @@ sheet1.columns = [
 ];
 
 for (const day of Object.keys(taSchedule)) {
-
   for (const session of Object.keys(taSchedule[day])) {
-
     // ------------------------
     // Date row (merged)
     // ------------------------
@@ -82,10 +101,7 @@ for (const day of Object.keys(taSchedule)) {
     // ------------------------
     // Table header
     // ------------------------
-    const headerRow = sheet1.addRow([
-      "Room",
-      "Teaching Assistant(s)",
-    ]);
+    const headerRow = sheet1.addRow(["Room", "Teaching Assistant(s)"]);
 
     headerRow.font = {
       bold: true,
@@ -99,16 +115,13 @@ for (const day of Object.keys(taSchedule)) {
     for (const room of Object.keys(taSchedule[day][session])) {
       sessionRows.push({
         room,
-        teachingAssistant:
-          taSchedule[day][session][room].join(" / "),
+        teachingAssistant: taSchedule[day][session][room].join(" / "),
       });
     }
 
     // Sort rooms
     sessionRows.sort(
-      (a, b) =>
-        (roomIndex[a.room] ?? 999) -
-        (roomIndex[b.room] ?? 999)
+      (a, b) => (roomIndex[a.room] ?? 999) - (roomIndex[b.room] ?? 999),
     );
 
     // Add rows
@@ -135,7 +148,7 @@ sheet2.addRows(
   taSummary.map((item) => ({
     name: item.ta,
     totalSessions: item.totalSessions,
-  }))
+  })),
 );
 
 // ------------------------
@@ -144,6 +157,4 @@ sheet2.addRows(
 wb.xlsx
   .writeFile(excelPath)
   .then(() => console.log(`[+] Excel saved at ${excelPath}`))
-  .catch((err) =>
-    console.error("[-] Error writing Excel file:\n", err)
-  );
+  .catch((err) => console.error("[-] Error writing Excel file:\n", err));
