@@ -49,7 +49,7 @@ class ScheduleTAs {
     // TA-specific rules
     this.taRules = {
       "Sandra Osei": {
-        exclude: ["Session, 1 (8:15 AM - 9:15 AM)"],
+        exclude: ["Session, 1 (8:30 AM - 10:30 AM)"],
       },
 
       "Beatrice Forson": {
@@ -57,9 +57,8 @@ class ScheduleTAs {
       },
 
       "Erica Winnie Gado": {
-        only: [
-          "Session, 1 (8:30 AM - 9:30 AM)",
-          "Session, 3 (3:00 PM - 5:00 PM)",
+        exclude: [
+          "Session, 2 (12:00 AM - 2:00 AM)",
         ],
       },
     };
