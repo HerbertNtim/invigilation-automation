@@ -138,7 +138,7 @@ async function cleanTimetable(srcPath, sheetName, rowCount, colCount) {
 
 async function start(allPapers, destPath) {
   const newWorkbook = new Excel.Workbook();
-  const newWorksheet = newWorkbook.addWorksheet("BYOD");
+  const newWorksheet = newWorkbook.addWorksheet("Sheet1");
 
   for (let i = 0; i < allPapers.length; i++) {
     newWorksheet.addRow([allPapers[i].join("%")]);
