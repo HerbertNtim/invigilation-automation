@@ -47,7 +47,6 @@ class ScheduleTAs {
 
     // TA-specific rules
     this.taRules = {
-      
       "Sandra Osei": {
         exclude: ["Session, 1 (8:15 AM - 9:15 AM)"],
       },
