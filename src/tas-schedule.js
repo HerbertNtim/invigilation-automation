@@ -11,14 +11,14 @@ const __dirname = path.dirname(__filename);
 
 const examsSchedule = JSON.parse(
   fs.readFileSync(
-    path.join(__dirname, "./outputs/ss-mid-sem-rooms.json"),
+    path.join(__dirname, "./outputs/ss-end-sem-rooms.json"),
     "utf-8",
   ),
 );
 
 const TAs = JSON.parse(
   fs.readFileSync(
-    path.join(__dirname, "./outputs/ss-mid-sem-TAs.json"),
+    path.join(__dirname, "./outputs/ss-end-sem-tas.json"),
     "utf-8",
   ),
 );
@@ -35,6 +35,8 @@ class ScheduleTAs {
       VSLA: 2,
       "NEB-TF": 2,
       "NEB-SF": 2,
+      "BYOD1": 2,
+      "BYOD2": 2,
       NEB: 1, // fixed
     };
 
@@ -45,17 +47,19 @@ class ScheduleTAs {
 
     // TA-specific rules
     this.taRules = {
+      
       "Sandra Osei": {
-        exclude: [
-          "Session, 1 (8:15 AM - 9:15 AM)",
-          "Session, 6 (5:00 PM - 6:00 PM)",
-        ],
+        exclude: ["Session, 1 (8:15 AM - 9:15 AM)"],
       },
 
-      "Doe Eileen Esi": {
+      "Beatrice Forson": {
+        exclude: ["Session, 1 (8:30 AM - 10:30 AM)"],
+      },
+
+      "Erica Winnie Gado": {
         only: [
-          "Session, 1 (8:15 AM - 9:15 AM)",
-          "Session, 6 (5:00 PM - 6:00 PM)",
+          "Session, 1 (8:30 AM - 9:30 AM)",
+          "Session, 3 (3:00 PM - 5:00 PM)",
         ],
       },
     };
@@ -242,13 +246,13 @@ const result = scheduler.scheduleAll(examsSchedule);
 
 // Save schedule
 fs.writeFileSync(
-  path.join(__dirname, "./outputs/ss-mid-sem-ta_schedule.json"),
+  path.join(__dirname, "./outputs/ss-end-sem-ta_schedule.json"),
   JSON.stringify(result, null, 2),
 );
 
 // Save summary
 fs.writeFileSync(
-  path.join(__dirname, "./outputs/ss-mid-sem-ta_summary.json"),
+  path.join(__dirname, "./outputs/ss-end-sem-ta_summary.json"),
   JSON.stringify(scheduler.getSessionSummary(), null, 2),
 );
 
