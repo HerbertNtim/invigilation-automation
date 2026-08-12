@@ -35,10 +35,11 @@ class ScheduleTAs {
       VSLA: 2,
       "NEB-TF": 2,
       "NEB-SF": 2,
-      "BYOD1": 2,
-      "BYOD2": 2,
       NEB: 1, // fixed
     };
+
+    // BYOD rooms
+    this.skipRooms = new Set(['BYOD1', 'BYOD2'])
 
     // Track sessions per TA
     this.sessionCounts = {};
@@ -84,6 +85,11 @@ class ScheduleTAs {
     for (const day of Object.keys(schedule)) {
       for (const session of Object.keys(schedule[day])) {
         for (const room of Object.keys(schedule[day][session])) {
+          // Ignore BYOD rooms
+          if(this.skipRooms.has(room)) {
+            continue;
+          }
+
           total += this.roomCapacity[room] || 1;
         }
       }
@@ -103,6 +109,10 @@ class ScheduleTAs {
     const slots = [];
 
     rooms.forEach((room) => {
+      // Ignore BYOD rooms
+      if(this.skipRooms.has(room)) { 
+        return;
+      }
       const needed = this.roomCapacity[room] || 1;
 
       for (let i = 0; i < needed; i++) {
@@ -165,7 +175,15 @@ class ScheduleTAs {
       this.schedule[day] = {};
 
       for (const session of Object.keys(scheduleData[day])) {
-        const rooms = Object.keys(scheduleData[day][session]);
+        // Remove BYOD rooms
+        const rooms = Object.keys(scheduleData[day][session]).filter((room) => !this.skipRooms.has(room));
+
+        // If the session only contains BYOD rooms,
+        // there is nothing for this scheduler to assign.
+        if(rooms.length === 0) {
+          continue;
+        }
+
         const slots = this.buildSlots(rooms);
 
         const assigned = new Set();
@@ -186,12 +204,18 @@ class ScheduleTAs {
               .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
           }
 
-          // Last fallback
-          if (eligible.length === 0) {
-            eligible = Object.keys(this.sessionCounts)
-              .filter((ta) => !assigned.has(ta))
-              .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
+          // No TA available
+          if(eligible.length === 0) {
+            console.error(`No TA available for ${day} - ${session} - ${slot.room}`)
+            continue;
           }
+
+          // Last fallback
+          // if (eligible.length === 0) {
+          //   eligible = Object.keys(this.sessionCounts)
+          //     .filter((ta) => !assigned.has(ta))
+          //     .sort((a, b) => this.sessionCounts[a] - this.sessionCounts[b]);
+          // }
 
           const ta = eligible[0];
 
