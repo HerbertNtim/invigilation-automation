@@ -56,6 +56,10 @@
     "totalSessions": 7
   },
   {
+    "ta": "Livingstone Ayivor",
+    "totalSessions": 7
+  },
+  {
     "ta": "Lawson Komla Adobor",
     "totalSessions": 7
   },
@@ -104,10 +108,6 @@
     "totalSessions": 7
   },
   {
-    "ta": "Maurice Elikem Sunuh",
-    "totalSessions": 7
-  },
-  {
     "ta": "Appiah Kofi Broni",
     "totalSessions": 7
   },
@@ -128,7 +128,11 @@
     "totalSessions": 7
   },
   {
-    "ta": "Solomon Akumanyin",
+    "ta": "Edmund Atta Keborni",
+    "totalSessions": 7
+  },
+  {
+    "ta": "Isaiah Nyamador",
     "totalSessions": 7
   },
   {
@@ -180,6 +184,10 @@
     "totalSessions": 7
   },
   {
+    "ta": "Achala Elijah",
+    "totalSessions": 7
+  },
+  {
     "ta": "Paul Osei",
     "totalSessions": 7
   },
@@ -193,6 +201,10 @@
   },
   {
     "ta": "Edmond Khan",
+    "totalSessions": 7
+  },
+  {
+    "ta": "Farida Yusif",
     "totalSessions": 7
   },
   {
@@ -213,6 +225,10 @@
   },
   {
     "ta": "Alfred Ackon",
+    "totalSessions": 7
+  },
+  {
+    "ta": "Dickson Avornor",
     "totalSessions": 7
   },
   {
@@ -256,19 +272,11 @@
     "totalSessions": 7
   },
   {
-    "ta": "Edmund Atta Keborni",
-    "totalSessions": 7
-  },
-  {
     "ta": "Prince Owusu",
     "totalSessions": 7
   },
   {
     "ta": "Prosper Gyansah Ofosu",
-    "totalSessions": 7
-  },
-  {
-    "ta": "Dickson Avornor",
     "totalSessions": 7
   },
   {
@@ -301,6 +309,14 @@
   },
   {
     "ta": "Kwadwo Baiden-Boafo",
+    "totalSessions": 7
+  },
+  {
+    "ta": "Tevia Abigail Mawunyo",
+    "totalSessions": 7
+  },
+  {
+    "ta": "Henry Tutu Adjei",
     "totalSessions": 7
   },
   {
@@ -396,15 +412,7 @@
     "totalSessions": 7
   },
   {
-    "ta": "Henry Tutu Adjei",
-    "totalSessions": 7
-  },
-  {
     "ta": "Jason Abeiku Boateng Techie",
-    "totalSessions": 7
-  },
-  {
-    "ta": "Achala Elijah",
     "totalSessions": 7
   },
   {
@@ -413,51 +421,51 @@
   },
   {
     "ta": "Christie Nyarko",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "David Nkasah Mensah",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Evans Tignanlene Nkumicha",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Isaac Ayensu",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Lucian Nsiah Sarkodie",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Mariwan Aida Yuoda",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Christiana Oforiwaa Kodua",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Debora Sarpomaa Boateng",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Andy Owusu-Boateng",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Mansur Abubakar",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Prince Asare Ange Seraphin",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Archer Michaelina Adu",
-    "totalSessions": 7
+    "totalSessions": 6
   },
   {
     "ta": "Prince Nyame",
@@ -484,10 +492,6 @@
     "totalSessions": 6
   },
   {
-    "ta": "Tevia Abigail Mawunyo",
-    "totalSessions": 6
-  },
-  {
     "ta": "Natalie Naa Amorkor Armafio",
     "totalSessions": 6
   },
@@ -501,10 +505,6 @@
   },
   {
     "ta": "Samuel Agyemang-Duah",
-    "totalSessions": 6
-  },
-  {
-    "ta": "Farida Yusif",
     "totalSessions": 6
   },
   {
@@ -550,5 +550,13 @@
   {
     "ta": "Osei Sarfo Kantanka",
     "totalSessions": 6
+  },
+  {
+    "ta": "Divine Adjabeng Jnr",
+    "totalSessions": 6
+  },
+  {
+    "ta": "Maurice Elikem Sunuh",
+    "totalSessions": 5
   }
 ]
